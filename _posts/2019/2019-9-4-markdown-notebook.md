@@ -36,6 +36,8 @@
 <br>
 ## 四.引用
 > 马克思曾说:xxx
+  
+
 <br>
 ##五.代码块
 ```java
@@ -50,17 +52,8 @@ public void test(String name){
 ## 七.图片
 ![xxx](http://px8rn4o1y.bkt.clouddn.com/wallhaven-ox2pm5.jpg)
 <br>
-## 八.表格
-
-|  表头   | 表头  | 表头  |
-|  :---  | ----  | ----: |
-| 单元格  | 单元格 | xxx  |
-| 单元格  | 单元格 | xxx  |
-<br>
 
 <kbd>Ctrl</kbd>
 
 `Ctrl`
 
-
-<font color=blue size="30">color</font>
