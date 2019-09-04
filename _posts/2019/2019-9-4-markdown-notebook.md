@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title: Markdown使用总结
 category: markdown
 tags: [markdown]
+excerpt: Markdown使用手册
 ---
 - 标题
 - 段落
