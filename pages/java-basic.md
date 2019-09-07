@@ -5,7 +5,7 @@ titlebar: Java-basic
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Java基础系列文章
 menu: Java-basic
 css: ['blog-page.css']
-permalink: /Java-basic
+permalink: /java-basic
 ---
 
 <div class="row">
