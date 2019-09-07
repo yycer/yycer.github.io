@@ -119,6 +119,11 @@ navs:
     target: _self
 
   -
+  href: /algorithm.html
+  label: Algorithm
+  target: _self
+
+  -
     href: /archives.html
     label: Archives
     target: _self
