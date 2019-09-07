@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Java 极客技术
+title: Java系列文章
 titlebar: java
-subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; Java 人的精神家园。>&nbsp;&nbsp;>&nbsp;&nbsp;<a href ="http://www.justdojava.com/" target="_blank" ><font color="#EB9439">点我直达</font></a>
 menu: java
 css: ['blog-page.css']
 permalink: /java
@@ -27,12 +26,12 @@ permalink: /java
         </ul> 
 
         <!-- Pagination -->
-        {% include pagination.html %}
+        <!-- {% include pagination.html %} -->
 
         <!-- Comments -->
-       <div class="comment">
+       <!-- <div class="comment">
          {% include comments.html %}
-       </div>
+       </div> -->
     </div>
 
 </div>
