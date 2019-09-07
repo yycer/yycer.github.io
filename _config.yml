@@ -18,7 +18,7 @@ favicon: favicon.ico
 repository: yycer/yycer.github.io
 github_url: https://github.com/yycer
 url: http://www.yaoyichen.cn
-enforce_ssl: ityouknow.com
+enforce_ssl: yaoyichen.cn
 
 ## Gem
 plugins:
@@ -55,30 +55,30 @@ paginate_path: 'page:num'
 # Navigation. top menu list
 menus:
 
-  -
-    href: /python.html
-    label: Python  
-    target: _self
+  # -
+  #   href: /python.html
+  #   label: Python  
+  #   target: _self
 
-  -
-    href: /it.html
-    label: IT
-    target: _self
+  # -
+  #   href: /it.html
+  #   label: IT
+  #   target: _self
 
-  -
-    href: /zsxq.html
-    label: 星球
-    target: _self   
+  # -
+  #   href: /zsxq.html
+  #   label: 星球
+  #   target: _self   
 
-  -
-    href: /life.html
-    label: 故事
-    target: _self
+  # -
+  #   href: /life.html
+  #   label: 故事
+  #   target: _self
 
-  -
-    href: /arch.html
-    label: 架构
-    target: _self
+  # -
+  #   href: /arch.html
+  #   label: 架构
+  #   target: _self
 
   -
     href: /link.html
