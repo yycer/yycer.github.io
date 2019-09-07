@@ -21,7 +21,8 @@ excerpt: Java异常处理机制
 
 - 缺点：
 必须显式捕捉并处理异常，或显式声明抛出异常，增加程序复杂度。
-若显式抛出异常，则会增加方法签名与异常的耦合度。
+若显式抛出异常，则会增加方法签名与异常的耦合度。  
+
 #### 2. Error
 >Error主要表示一些虚拟机内部错误，如：动态链接失败。  
 
@@ -157,7 +158,7 @@ public class OrderController {
     @GetMapping(value = "/v1/orders/{order_id}"/*, produces = {"application/toString", "application/json"}*/)
     public Order getOrder(@PathVariable("order_id") @NotBlank String orderId){
 
-        Order order      = new Order();
+        Order order     = new Order();
         BigDecimal total = new BigDecimal(-1.00, new MathContext(2, RoundingMode.HALF_UP));
 
         if (total.compareTo(BigDecimal.ZERO) <= 0){
