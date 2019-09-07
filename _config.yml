@@ -83,7 +83,7 @@ menus:
   -
     href: /link.html
     label: 友链
-    target: _self
+    target: _blank
 
 
 
