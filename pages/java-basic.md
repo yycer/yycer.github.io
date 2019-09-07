@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Java基础
-titlebar: Java-basic
+titlebar: java-basic
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Java基础系列文章
-menu: Java-basic
+menu: java-basic
 css: ['blog-page.css']
 permalink: /java-basic
 ---

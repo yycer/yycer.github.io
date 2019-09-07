@@ -9,17 +9,17 @@ excerpt: Java异常处理机制
 #### 1. Exception
 >Exception主要分为两种：Runtime Exception、Checked（Compile） Exception。
 
-　　常见的Runtime Exception，有: NullPointerException、ArithmeticException...
+常见的Runtime Exception，有: NullPointerException、ArithmeticException...
 
-　　常见的Checked（Compile） Exception，有: IOException、FileNotFoundException...
+常见的Checked（Compile） Exception，有: IOException、FileNotFoundException...
 
-　　所谓Checked Exception就是在编译期间，你必须对某条、或多条语句进行异常处理，如： `try`...`catch`...、`throws`语句。
+所谓Checked Exception就是在编译期间，你必须对某条、或多条语句进行异常处理，如： `try`...`catch`...、`throws`语句。
 
-#####下面介绍下Checked Exception的优缺点：
+##### 下面介绍下Checked Exception的优缺点：
 
-特点与优点： `Java专有`，体现Java的设计哲学，没有完善错误处理的代码根本就不会执行的机会。  
+- 特点与优点： `Java专有`，体现Java的设计哲学，没有完善错误处理的代码根本就不会执行的机会。  
 
-缺点：
+- 缺点：
 必须显式捕捉并处理异常，或显式声明抛出异常，增加程序复杂度。
 若显式抛出异常，则会增加方法签名与异常的耦合度。
 #### 2. Error
@@ -33,11 +33,12 @@ excerpt: Java异常处理机制
 
 - 异常的`针对性`：根据业务需求决定如何处理异常，比如：
 当你检查商品库存时发生异常，此时就应终止此次调用，并告诉上层用户详细、明确的原因。
-但当你获取用户头像失败时，因为该操作不影响整体订单、支付流程，所以不需要终止此次调用，可与上层用户协商处理，比如：返回一个空字符串。
+但当你获取用户头像失败时，因为该操作不影响整体订单、支付流程，所以不需要终止此次调用，可与上层用户协商处理，比如：返回一个空字符串。  
+
 <br>
-<br>
-##  相关问题
->1.throw 与 throws的区别？  
+##  相关问题  
+
+> 1.throw 与 throws的区别？  
 
 - 位置：`throws`位于方法签名，而`throw`位于函数体内。
 - 语法格式：
