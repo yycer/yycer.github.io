@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markdown使用总结
-category: markdown
+category: tool
 tags: [markdown]
 excerpt: Markdown使用手册
 ---
