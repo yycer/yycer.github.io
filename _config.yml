@@ -144,39 +144,39 @@ navs:
 labels:
 
   -
-    href: /payment.html
-    label: 支付     
+    href: /java-basic.html
+    label: Java基础     
     target: _self
 
   -
-    href: /fastdfs.html
-    label: FastDFS
+    href: /jvm.html
+    label: JVM
     target: _blank
 
   -
-    href: /mongodb.html
-    label: MongoDB
+    href: /database.html
+    label: 数据库
     target: _blank
 
   -
-    href: /docker.html
-    label: Docker
+    href: /tool.html
+    label: 工具
     target: _blank
 
-  -
-    href: /open-source.html
-    label: Code  
-    target: _blank
+  # -
+  #   href: /open-source.html
+  #   label: Code  
+  #   target: _blank
 
-  -
-    href: /gitchat.html
-    label: Chat
-    target: _blank
+  # -
+  #   href: /gitchat.html
+  #   label: Chat
+  #   target: _blank
 
-  -
-    href: /geektime.html
-    label: 极客
-    target: _blank
+  # -
+  #   href: /geektime.html
+  #   label: 极客
+  #   target: _blank
 
 
 # selected articles
