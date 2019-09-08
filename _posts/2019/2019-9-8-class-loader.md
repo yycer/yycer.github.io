@@ -1,3 +1,10 @@
+---
+layout: post
+title: Java虚拟机类加载机制
+category: jvm
+tags: [jvm]
+excerpt: 类加载机制浅析
+---
 ## 类加载机制三大步骤  
 
 > 1.加载  
