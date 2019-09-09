@@ -8,7 +8,7 @@ excerpt: 记录MyBatis的坑
 ## MyBatis SQL语句遇到的性能问题
 > 1.场景还原  
 
-&emsp;&emsp;首先，我们使用SQL Server数据库，创建一张`User`表，其中包含`userId`、`userName`、`gender`字段，其中`userId`的数据类型为`char(20)`，此时我们想通过`userId`获得这个人的姓名。
+&emsp;&emsp;首先，我们使用SQL Server数据库，创建一张`User`表，其中包含userId、userName、gender字段，其中userId的数据类型为`char(20)`，此时我们想通过`userId`获得这个人的姓名。
 
 &emsp;&emsp;这段SQL很简单： ```SELECT userName FROM dbo.User (nolock) WHERE userId = '100'```
 
@@ -20,7 +20,7 @@ excerpt: 记录MyBatis的坑
 
 <br>
 ## char、varchar、nvarchar区别
-- char：对于英文字母占1个字节，对于汉字占2个字节，char属于定长类型数据结构，剩余空间全部使用空格填补，因此索引效率极高。
+- char：对于英文字母占1个字节，对于汉字占2个字节，char属于`定长类型`数据结构，剩余空间全部使用空格填补，因此索引效率极高。
 - varchar： 多余空间不会使用空格填补，实际长度为字符串长度+1，这个1代表字符串的长度。
 - nvarchar：所有的字符都占用2个字节，无论英文字母，还是汉字。解决了多字符集之间的转换问题，N代表Unicode。  
 
