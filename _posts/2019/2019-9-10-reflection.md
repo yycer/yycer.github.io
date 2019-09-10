@@ -9,14 +9,14 @@ excerpt: 梳理Java反射机制
 )
 
 ## 为什么要用反射？
-> 程序有时需要在运行时，获得、修改对象的信息。  
+> 程序有时需要在运行时，获得、修改对象的特征和行为。
 
 <br>
 ## 如何获得Class对象？
 > 三种方式获得Class对象  
 
-- 1.&nbsp;使用Class`类`的forName("全限定名")静态方法
-- 2.&nbsp;调用某个`类`的class属性
+- 1.&nbsp;使用Class`类`的forName("全限定名")静态方法。
+- 2.&nbsp;调用某个`类`的class属性。
 - 3.&nbsp;调用某个`对象`的getClass()方法。
 
 > 单元测试  
@@ -73,7 +73,7 @@ excerpt: 梳理Java反射机制
         System.out.println("Name = " + changedName + " 通过反射方式执行getName()方法");
     }
 
-    ---------------------Console information-------------------------------
+    -------------------------Console information-------------------------
 
     Id   = 37      调用对象的getId()方法
     Name = frankie 调用对象的getName()方法
