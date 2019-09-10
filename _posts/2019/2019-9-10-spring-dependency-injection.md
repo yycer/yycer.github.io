@@ -160,6 +160,6 @@ public void dvdAndVcdPlayerTest(){
  
 <br>
 ## 参考资料
-- [IoC 之 2.1 IoC基础 ——跟我学Spring3](https://www.iteye.com/blog/jinnianshilongnian-1413846)
-- [Spring IoC有什么好处呢？](https://www.zhihu.com/question/23277575/answer/169698662)
+- [IoC 之 2.1 IoC基础 ——跟我学Spring3](https://www.iteye.com/blog/jinnianshilongnian-1413846){:target="_blank"}
+- [Spring IoC有什么好处呢？](https://www.zhihu.com/question/23277575/answer/169698662){:target="_blank"}
 - 《Spring实战》 第二章
