@@ -3,7 +3,7 @@ layout: post
 title: Thread中易混淆方法总结
 category: java
 tags: [java, basic-java]
-excerpt: sleep()、yiled()、wait()、notify()、join()方法总结
+excerpt: 多线程调度方法总结
 ---
 ![overview](http://px8rn4o1y.bkt.clouddn.com/thread_confused_methods.png)
 <br>
