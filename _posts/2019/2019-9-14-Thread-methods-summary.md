@@ -191,3 +191,7 @@ public void joinTest() throws InterruptedException {
 ![without_join_result](http://px8rn4o1y.bkt.clouddn.com/without_join_result.png)
 <br>
 <br>
+## 参考文章
+- [五月的仓颉 - 多线程系列](https://www.cnblogs.com/xrq730/category/733883.html)
+- [Java 多线程编程之：notify 和 wait 用法](https://segmentfault.com/a/1190000018096174#articleHeader0)
+- [sleep、yield、join方法简介与用法 sleep与wait区别 多线程中篇（十五）](https://www.cnblogs.com/noteless/p/10443446.html)
