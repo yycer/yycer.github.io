@@ -22,6 +22,8 @@ permalink: /link
 - [嘟嘟](http://tengj.top/)
 - [狗皮膏药](https://plushunter.github.io/)
 - [武培轩](https://www.cnblogs.com/wupeixuan/)
+- [try-redis](http://try.redis.io/)
+- [Redis 命令参考](http://doc.redisfans.com/)
 
 
 <!-- ## 个人链接
