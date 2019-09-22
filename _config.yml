@@ -153,9 +153,21 @@ labels:
     target: _blank
 
   -
+    href: /redis.html
+    label: Redis
+    target: _blank
+
+  -
     href: /tool.html
     label: 工具
     target: _blank
+
+  -
+    href: /unit-test.html
+    label: 单元测试
+    target: _blank
+
+
 
   # -
   #   href: /open-source.html
