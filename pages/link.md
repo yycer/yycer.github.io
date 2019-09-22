@@ -25,6 +25,9 @@ permalink: /link
 - [try-redis](http://try.redis.io/)
 - [Redis 命令参考](http://doc.redisfans.com/)
 
+## 好文章
+- [硬盘基本知识（磁头、磁道、扇区、柱面）](https://www.cnblogs.com/jswang/p/9071847.html)
+
 
 <!-- ## 个人链接
 
