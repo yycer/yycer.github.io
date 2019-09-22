@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thread中易混淆方法总结
-category: java
+category: multithread
 tags: [java, basic-java]
 excerpt: sleep()、yiled()、wait()、notify()、join()方法总结
 ---

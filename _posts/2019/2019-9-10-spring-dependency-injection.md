@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring依赖注入浅析
-category: java
+category: Spring
 tags: [spring, java]
 excerpt: Spring DI
 ---
