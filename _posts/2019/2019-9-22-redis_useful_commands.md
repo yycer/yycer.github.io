@@ -35,18 +35,16 @@ del key
 
 - 如何对某个键设置过期时间？
 ```
-expire key 1000(seconds)
+expire  key 1000 (seconds)
 pexpire key 10000(milliseconds)
 ```
 
 - 如何查看某个键还剩多久过期？
 ```
-/**
- * ttl: time to live
- * After Redis 2.8:
- * The command return -2 if the key does not exist.
- * The command return -1 if the key exist but not associated expire.
- */
+// ttl: time to live
+// After Redis 2.8:
+// The command return -2 if the key does not exist.
+// The command return -1 if the key exist but not associated expire.
 ttl key(seconds)
 pttl key(milliseconds)
 ```
@@ -56,7 +54,7 @@ pttl key(milliseconds)
 persist key
 ```
 
-- 如何某个键的数据类型？
+- 如何获得某个键的数据类型？
 ```
 type key
 ```
@@ -71,13 +69,13 @@ sort key desc
 
 - 如何为某个字符串赋值？
 ```
-set key "value"
+set  key "value"
 mset key1 "v1" key2 "v2"
 ```
 
 - 如何获得某个字符串的值？
 ```
-get key
+get  key
 mget key1 key2
 ```
 
@@ -104,7 +102,7 @@ bitcount key [start] [end]
 
 - 如何对某一字符串做到既赋值，又设置过期时间？
 ```
-setex key [expiredTime] [new_value]
+setex  key [expiredTime] [new_value]
 psetex key [expiredTime] [new_value]
 ```
 
@@ -125,13 +123,13 @@ setnx key "value"
 
 - 如何创建Hash，并为其`field`(域)设置值？
 ```
-hset key field value
+hset  key field value
 hmset key f1 v1 f2 v2
 ```
 
 - 如何获得某个Hash中某个域的值？
 ```
-hget key field
+hget  key field
 hmget key f1 f2
 ```
 
@@ -166,9 +164,7 @@ hsetnx key field value
 
 - 如何往List中添加元素？
 ```
-/**
-  * 左上右下
-  */
+// 左上右下
 lpush key value1
 rpush key value2
 ```
@@ -185,11 +181,9 @@ rpop key
 
 - 如何删除List中的元素？
 ```
-/**
-  * 1. count > 0, 从表头往表尾搜索, 移除值为value的元素, 数量为count。
-  * 2. count < 0, 从表尾往表头搜索, 移除值为value的元素, 数量为count的绝对值。
-  * 3. count = 0, 移除值为value的所有元素。
-  */
+// 1. count > 0, 从表头往表尾搜索, 移除值为value的元素, 数量为count。
+// 2. count < 0, 从表尾往表头搜索, 移除值为value的元素, 数量为count的绝对值。
+// 3. count = 0, 移除值为value的所有元素。
 lrem key count value
 ```
 
@@ -273,31 +267,31 @@ zadd key score member [[score member] [score member]...]
 ```
 zrem key member [member...]
 zremrangebyscore key min max   // 删除score范围内的成员，redis 2.1.6后删除的元素不包括min和max。
-zremrangebyrank key start stop // 根据score正序排序，删除前stop - start + 1个成员。
+zremrangebyrank  key start stop // 根据score正序排序，删除前stop - start + 1个成员。
 ```
 
 - 如何获得SortedSet中所有成员？
 ```
-zscan key 0
-zrange key 0 -1 withscores
+zscan     key 0
+zrange    key 0 -1 withscores
 zrevrange key 0 -1 withscores
 ```
 
 - 如何根据score排列？
 ```
-zrangebyscore page min max
+zrangebyscore    page min max
 zrevrangebyscore page max min // 注意是先max，再min喔。
 ```
 
 - 如何获得某一成员的排名？
 ```
-zrank key member
+zrank    key member
 zrevrank key member
 ```
 
 - 如何获得SortedSet中的元素数量？
 ```
-zcard key
+zcard  key
 zcount key min max
 ```
 
