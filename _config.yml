@@ -145,27 +145,27 @@ labels:
   -
     href: /jvm.html
     label: JVM
-    target: _blank
+    target: _self
 
   -
     href: /database.html
     label: 数据库
-    target: _blank
+    target: _self
 
   -
     href: /redis.html
     label: Redis
-    target: _blank
+    target: _self
 
   -
     href: /tool.html
     label: 工具
-    target: _blank
+    target: _self
 
   -
     href: /unit-test.html
     label: 单元测试
-    target: _blank
+    target: _self
 
 
 
