@@ -7,7 +7,8 @@ excerpt: 索引未命中整理
 ---
 ## 准备测试数据
 
-- 创建一张表
+- 创建一张表  
+
 ``` sql
 create table person(
     id     int,
@@ -98,7 +99,7 @@ EXPLAIN SELECT * FROM person WHERE name LIKE 'yy%333';
 EXPLAIN SELECT * FROM person WHERE `name` = 'yyc8888' OR id = 333;
 ```
 ![并集_idx_name](http://px8rn4o1y.bkt.clouddn.com/%E5%B9%B6%E9%9B%86_idx_name.png)  
----
+<br>
 ``` sql
 # Index has been created for the name and id column.
 EXPLAIN SELECT * FROM person WHERE `name` = 'yyc8888' OR id = 333;
@@ -141,13 +142,13 @@ EXPLAIN SELECT * FROM person WHERE name = 8888
 EXPLAIN SELECT * FROM person WHERE id = 333 and `name` = 'yyc333';
 ```
 ![union_index_id_name](http://px8rn4o1y.bkt.clouddn.com/%E8%81%94%E5%90%88%E7%B4%A2%E5%BC%95_id_name.png)  
----
+<br>
 ``` sql
 # Union index has been created for the name and id column.
 EXPLAIN SELECT * FROM person WHERE id = 333;
 ```
 ![union_index_id](http://px8rn4o1y.bkt.clouddn.com/%E8%81%94%E5%90%88%E7%B4%A2%E5%BC%95_id.png)  
----
+<br>
 ``` sql
 # Union index has been created for the name and id column.
 EXPLAIN SELECT * FROM person WHERE `name` = 'yyc333';
