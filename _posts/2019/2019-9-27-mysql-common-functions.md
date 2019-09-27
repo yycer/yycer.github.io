@@ -32,9 +32,9 @@ INSERT INTO orders(user_id, total, created_date) VALUES('829', 80.00, '2019-9-30
 ``` sql
 SET @str = '  123   ';
 SELECT LENGTH(@str)        as all_length;           # 8
-SELECT LENGTH(TRIM(@str))  as word_length;          # 3
+SELECT LENGTH(TRIM(@str))  as word_length;        # 3
 SELECT LENGTH(LTRIM(@str)) as remove_left_length;   # 6
-SELECT LENGTH(RTRIM(@str)) as remove_right_length;  # 5
+SELECT LENGTH(RTRIM(@str)) as remove_right_length; # 5
 ```
 
 - 如何将字符串全部转换为大小写？
