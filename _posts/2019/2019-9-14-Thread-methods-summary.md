@@ -5,7 +5,7 @@ category: multithread
 tags: [java, basic-java]
 excerpt: sleep()、yiled()、wait()、notify()、join()方法总结
 ---
-![overview](http://px8rn4o1y.bkt.clouddn.com/thread_confused_methods.png)
+![overview](https://yyc-images.oss-cn-beijing.aliyuncs.com/thread_confused_methods.png?Expires=1569558641&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=IslqeWUlxXZpeo%2FweQ10YvcA9tA%3D)
 <br>
 <br>
 ## Thread.sleep()  
@@ -60,7 +60,7 @@ public void sleepTest() throws InterruptedException {
 
 > 执行结果  
 
-![sleep_result](http://px8rn4o1y.bkt.clouddn.com/sleep_result.png)
+![sleep_result](https://yyc-images.oss-cn-beijing.aliyuncs.com/sleep_result.png?Expires=1569558653&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=pScg5kfXyiuie2zLdCazDhoIagI%3D)
 <br>
 <br>
 
@@ -96,7 +96,7 @@ public void yieldTest(){
 ```
 > 执行结果  
   
-![yield_result](http://px8rn4o1y.bkt.clouddn.com/yield_result.png)
+![yield_result](https://yyc-images.oss-cn-beijing.aliyuncs.com/yield_result.png?Expires=1569558668&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=jtgF3DBEH7UJFcsOH42s1zFp2EU%3D)
 <br>
 <br>
 ## Object.wait() & Object.notify()  
@@ -150,7 +150,7 @@ public void waitAndNotifyTest() throws InterruptedException {
 
 > 执行结果  
   
-![wait_and_notify_result](http://px8rn4o1y.bkt.clouddn.com/wait_and_notify_result.png)
+![wait_and_notify_result](https://yyc-images.oss-cn-beijing.aliyuncs.com/wait_and_notify_result.png?Expires=1569558682&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=D5twY%2FGu1la38kZ2bNcH1n7%2Blh4%3D)
 <br>
 <br>
 
@@ -184,11 +184,11 @@ public void joinTest() throws InterruptedException {
 
 > 执行结果 - 包含join()  
 
-![with_join_result](http://px8rn4o1y.bkt.clouddn.com/with_join_result.png)
+![with_join_result](https://yyc-images.oss-cn-beijing.aliyuncs.com/with_join_result.png?Expires=1569558698&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=6PI7hoTVkLZeWv81jFrLJV%2BuztU%3D)
 
 > 执行结果 - 不包含join()  
   
-![without_join_result](http://px8rn4o1y.bkt.clouddn.com/without_join_result.png)
+![without_join_result](https://yyc-images.oss-cn-beijing.aliyuncs.com/without_join_result.png?Expires=1569558710&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=McwKfZjGe7D1n2xn%2Fa5Zvcv7yu4%3D)
 <br>
 <br>
 ## 参考文章

@@ -5,7 +5,7 @@ category: java-basic
 tags: [java-basic]
 excerpt: 梳理Java反射机制
 ---
-![反射概述](http://px8rn4o1y.bkt.clouddn.com/%E5%8F%8D%E5%B0%84.png
+![反射概述](https://yyc-images.oss-cn-beijing.aliyuncs.com/%E5%8F%8D%E5%B0%84.png?Expires=1569558783&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=8ZixM%2FCLkRZug80egr%2B4nCuGH4M%3D
 )
 
 ## 为什么要用反射？
