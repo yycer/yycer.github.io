@@ -86,7 +86,8 @@ SELECT * FROM products WHERE prod_name REGEXP '5x [1-9]00'
 ``` sql  
 SELECT * FROM products WHERE prod_name REGEXP '.'
 ```
-> 很明显，这不是期望的结果。因为`.`匹配任意字符，而我们只想找出包含`.`字符的值，所以我们需要用到转义。 
+> 很明显，这不是期望的结果。因为`.`匹配任意字符，而我们只想找出包含`.`字符的值，所以我们需要用到转义。  
+
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/%E7%82%B9_%E5%B0%9A%E6%9C%AA%E8%BD%AC%E4%B9%89.png?Expires=1569573457&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=EFQf0Akj7KVaiGs2OnaA8JiGmRg%3D)
 
 ``` sql  
