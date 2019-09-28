@@ -82,7 +82,7 @@ public void staticExcSequenceTest(){
 - 如何证明？ 启动项目时添加`-XX:+TraceClassLoading`虚拟机参数。  
 
 
-![pre-load-class](https://yyc-images.oss-cn-beijing.aliyuncs.com/%E9%A2%84%E5%8A%A0%E8%BD%BD%E7%B1%BB.png?Expires=1569558891&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=FUKjthhPa76qjm8PywcS6Eu%2FsNk%3D)
+![pre-load-class](https://yyc-images.oss-cn-beijing.aliyuncs.com/%E9%A2%84%E5%8A%A0%E8%BD%BD%E7%B1%BB.png)
  
 <br>
 ## 参考

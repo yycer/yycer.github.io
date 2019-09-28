@@ -16,7 +16,7 @@ scan 0          // Incrementally iterate the keys space.
     - `keys *`: 返回所有的键，查询过程中可能会造成几秒的延迟。 
     - `scan 0`: 返回两个元素，第一个元素代表后续元素的游标，若为0，则表示所有元素都已输出，第二个元素为keys(默认显示`10`个key)。  
 
-![keys_scan](https://yyc-images.oss-cn-beijing.aliyuncs.com/keys_scan.png?Expires=1569558476&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=FqXFInpAozwTdsP20P3zpzZnaFI%3D)
+![keys_scan](https://yyc-images.oss-cn-beijing.aliyuncs.com/keys_scan.png)
 
 - 如何判断某个键是否存在？
 ```

@@ -5,7 +5,7 @@ category: database
 tags: [database]
 excerpt: 梳理MySQL常用函数
 ---
-![](https://yyc-images.oss-cn-beijing.aliyuncs.com/MySQL_regular_expression.png?Expires=1569571774&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=97pE%2FeFSTRt8hNBWQpjOvOT%2FJqo%3D)  
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/MySQL_regular_expression.png)  
 
 ## 数据准备  
 
@@ -75,7 +75,7 @@ SELECT CURTIME()  # 17:38:08
   WHERE YEAR(created_date) = 2019 AND MONTH(created_date) = 9
   ```
 
-![](https://yyc-images.oss-cn-beijing.aliyuncs.com/datetime_processed.png?Expires=1569580945&OSSAccessKeyId=TMP.hVx9hnCuz9jD53vzWBzHJnGEEsCrHhc9qDSxBnz3qoqz4UWBh92zFtxwPj4MzvFTwA1XX8XGkUAZSbzTdosEEkACgCZUfzVHaMvMwNYso1eXc8eq5wwWurM45YCPmM.tmp&Signature=eVZ9S%2F66oNln1n2BNVazx5tKa1s%3D)
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/datetime_processed.png)
 
 
 <br>
