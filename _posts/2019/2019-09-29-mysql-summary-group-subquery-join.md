@@ -3,7 +3,7 @@ layout: post
 title: MySQL - 汇总、分组、子查询、联结用法
 category: database
 tags: [database]
-excerpt: summary、group、subquery、union
+excerpt: summary、group、subquery、join
 ---
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/summary-group-subquery-union.png)
 
