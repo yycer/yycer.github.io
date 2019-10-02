@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MySQL中触发器的使用
+title: MySQL - 触发器
 category: database
 tags: [database]
 excerpt: 深入理解MySQL触发器
