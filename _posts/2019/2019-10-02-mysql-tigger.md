@@ -3,7 +3,7 @@ layout: post
 title: MySQL中触发器的使用
 category: database
 tags: [database]
-excerpt: 深入理解触发器
+excerpt: 深入理解MySQL触发器
 ---
 
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/1_trigger.png)
@@ -307,6 +307,7 @@ DROP TABLE IF EXISTS orders;
 SHOW TRIGGERS in test;
 ```
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/13_1_has_insert_test_function.png)
+<br>
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/13_2_after_drop_orders_table.png)
 
 <br>
@@ -319,6 +320,6 @@ SHOW TRIGGERS in test;
 <br>
 ## 参考  
 
-- [24.3.1 Trigger Syntax and Examples](https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html)
-- [13.7.7.38 SHOW TRIGGERS Syntax](https://dev.mysql.com/doc/refman/8.0/en/show-triggers.html)
+- [24.3.1 Trigger Syntax and Examples](https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html){:target="_blank"}
+- [13.7.7.38 SHOW TRIGGERS Syntax](https://dev.mysql.com/doc/refman/8.0/en/show-triggers.html){:target="_blank"}
 
