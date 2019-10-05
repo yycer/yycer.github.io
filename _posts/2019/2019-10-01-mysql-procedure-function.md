@@ -64,7 +64,6 @@ CALL uspGetOrders();
 CALL uspGetOrderById(20004007596, @id);
 SELECT @id; # 1
 ```
-![](https://yyc-images.oss-cn-beijing.aliyuncs.com/mysql-procedure-function.png)
 
 > 如何修改存储过程？  
 
