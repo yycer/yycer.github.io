@@ -61,9 +61,9 @@ excerpt: Phantom Read
 
 <br>
 ## Reference  
-[15.7.4 Phantom Rows](https://dev.mysql.com/doc/refman/8.0/en/innodb-next-key-locking.html){:target="_blank"}  
-[複習資料庫的 Isolation Level 與圖解五個常見的 Race Conditions](https://medium.com/@chester.yw.chu/%E8%A4%87%E7%BF%92%E8%B3%87%E6%96%99%E5%BA%AB%E7%9A%84-isolation-level-%E8%88%87%E5%B8%B8%E8%A6%8B%E7%9A%84%E4%BA%94%E5%80%8B-race-conditions-%E5%9C%96%E8%A7%A3-16e8d472a25c){:target="_blank"}  
-[對於 MySQL Repeatable Read Isolation 常見的三個誤解](https://medium.com/@chester.yw.chu/%E5%B0%8D%E6%96%BC-mysql-repeatable-read-isolation-%E5%B8%B8%E8%A6%8B%E7%9A%84%E4%B8%89%E5%80%8B%E8%AA%A4%E8%A7%A3-7a9afbac65af){:target="_blank"}  
-[Bug #63870 Repeatable-read isolation violated in UPDATE](https://bugs.mysql.com/bug.php?id=63870){:target="_blank"}  
-[Testing MySQL isolation levels](https://medium.com/@huynhquangthao/mysql-testing-isolation-levels-650a0d0fae75){:target="_blank"}  
-[Understanding MySQL Isolation Levels: Repeatable-Read](https://blog.pythian.com/understanding-mysql-isolation-levels-repeatable-read/){:target="_blank"}
+- [15.7.4 Phantom Rows](https://dev.mysql.com/doc/refman/8.0/en/innodb-next-key-locking.html){:target="_blank"}  
+- [複習資料庫的 Isolation Level 與圖解五個常見的 Race Conditions](https://medium.com/@chester.yw.chu/%E8%A4%87%E7%BF%92%E8%B3%87%E6%96%99%E5%BA%AB%E7%9A%84-isolation-level-%E8%88%87%E5%B8%B8%E8%A6%8B%E7%9A%84%E4%BA%94%E5%80%8B-race-conditions-%E5%9C%96%E8%A7%A3-16e8d472a25c){:target="_blank"}  
+- [對於 MySQL Repeatable Read Isolation 常見的三個誤解](https://medium.com/@chester.yw.chu/%E5%B0%8D%E6%96%BC-mysql-repeatable-read-isolation-%E5%B8%B8%E8%A6%8B%E7%9A%84%E4%B8%89%E5%80%8B%E8%AA%A4%E8%A7%A3-7a9afbac65af){:target="_blank"}  
+- [Bug #63870 Repeatable-read isolation violated in UPDATE](https://bugs.mysql.com/bug.php?id=63870){:target="_blank"}  
+- [Testing MySQL isolation levels](https://medium.com/@huynhquangthao/mysql-testing-isolation-levels-650a0d0fae75){:target="_blank"}  
+- [Understanding MySQL Isolation Levels: Repeatable-Read](https://blog.pythian.com/understanding-mysql-isolation-levels-repeatable-read/){:target="_blank"}
