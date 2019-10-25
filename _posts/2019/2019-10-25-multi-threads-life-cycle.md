@@ -170,7 +170,7 @@ public void testTimedWaitingStateUsingWait() throws InterruptedException {
 <br>
 ## `WAITING`  
 
->     /**
+    /**
      * Thread state for a waiting thread.
      * A thread is in the waiting state due to calling one of the
      * following methods:
@@ -230,7 +230,7 @@ public void testWaitingStateUsingWait() throws InterruptedException {
 ## `BLOCKED`  
 
 
->     /**
+    /**
      * Thread state for a thread blocked waiting for a monitor lock.
      * A thread in the blocked state is waiting for a monitor lock
      * to enter a synchronized block/method or
