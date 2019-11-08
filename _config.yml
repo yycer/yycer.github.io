@@ -205,6 +205,11 @@ labels:
     href: /design-pattern.html
     label: 设计模式
     target: _self
+
+  -
+    href: /travel-notes.html
+    label: 游记
+    target: _self
   # -
   #   href: /open-source.html
   #   label: Code  
