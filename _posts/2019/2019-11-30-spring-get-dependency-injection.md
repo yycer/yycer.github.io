@@ -124,9 +124,9 @@ private Party party;
 
 先说下`@Resource`，首先它会根据`field name`，也就是`person`尝试从`spring`容器中获得对应的`Bean`，很巧，容器中正好有这个`Bean`。  
 
-然后说下`@Autowired、@Inject`，他两首先会根据`field type`也就是说`party`，尝试从`spring`容器中获得对于的`Bean`，但是容器中并没有这个`Bean`，由于没有使用`@Qualifier`注解，因此尝试通过`filed name`获得`Bean`，bingo！  
+然后说下`@Autowired、@Inject`，他两首先会根据`field type`也就是`party`，尝试从`spring`容器中获得对应的`Bean`，但是容器中并没有这个`Bean`，由于没有使用`@Qualifier`注解，因此尝试通过`filed name`获得`Bean`，bingo！  
 
-至于第四种写法，虽然通过`field name`和`file type`都没有从`spring`容器中获得对于的`Bean`，但是可以通过`@Resource`加上`name property`指定`bean name`的方式获得。  
+至于第四种写法，虽然通过`field name`和`file type`都没有从`Spring`容器中获得对于的`Bean`，但是可以通过`@Resource`加上`name property`指定`bean name`的方式去获得。  
 
 
 <br>
@@ -146,7 +146,7 @@ private Person party;
 private Person party;
 ```
 
-以上三种情况都会根据`field type`也就是`Person`，尝试从`spring`容器中获得`person bean`，注意喔，根据`field type`去查找`bean`时，用的是首字母小写的形式喔。  
+以上三种情况都会根据`field type`也就是`Person`，尝试从`Spring`容器中获得`person bean`，注意喔，根据`field type`去查找`Bean`时，用的是首字母小写的形式喔。  
 
 <br>
 
@@ -178,7 +178,7 @@ private Person frankie;
 
 当然，除了使用`@Qualifier`注解，我觉得使用`@Resource`加上`name property`的方式更加简洁明了。  
 
-最后总结下，在真实的开发场景中，尽量避免构建`field name`与`bean name`的匹配关系，因为`filed name`随时可能会改变。  
+最后总结下，在真实的开发场景中，尽量避免构建`field name`与`bean name`的匹配关系，因为`filed name`随时可能会被你`Shift + F6`改变。  
 一般情况下，直接使用`@Resource(name = "lowercase_class_name")`，  
 当一个类或接口对应多个`Bean`时，使用`@Resource(name = "specified_bean_name")`。
 
