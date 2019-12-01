@@ -12,7 +12,8 @@ permalink: /link
 - [纯洁的微笑](http://www.ityouknow.com/) - 偶像，没有他，就没有这个博客
 - [Marion](https://www.majingjing.cn/)   - 一个有趣的Java程序员
 - [阮一峰](http://www.ruanyifeng.com/blog/) - 技术道路上，有幸遇到一盏明灯
-- [五月的仓颉](https://www.cnblogs.com/xrq730/) - 技术道路上可以跟随的一位大侠
+- [五月的仓颉](https://www.cnblogs.com/xrq730/) - 一位大侠
+- [寻觅beyond](https://www.cnblogs.com/-beyond/category/961475.html) - Shell找他学的
 
 ## 推荐网站
 
