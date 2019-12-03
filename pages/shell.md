@@ -1,8 +1,8 @@
 ---
 layout: page
-title: shell
-titlebar: shell
-menu: shell
+title: Linux & Shell
+titlebar: Shell
+menu: Shell
 css: ['blog-page.css']
 permalink: /shell
 ---
