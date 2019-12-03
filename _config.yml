@@ -210,6 +210,11 @@ labels:
     href: /travel-notes.html
     label: 游记
     target: _self
+
+  -
+    href: /shell.html
+    label: Shell
+    target: _self    
   # -
   #   href: /open-source.html
   #   label: Code  
