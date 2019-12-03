@@ -213,7 +213,7 @@ labels:
 
   -
     href: /shell.html
-    label: Shell
+    label: shell
     target: _self    
   # -
   #   href: /open-source.html

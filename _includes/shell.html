@@ -1,19 +1,11 @@
----
-layout: page
-title: Redis系列
-titlebar: redis
-menu: redis
-css: ['blog-page.css']
-permalink: /redis
----
-
 <div class="row">
 
     <div class="col-md-12">
 
+        <!-- Blog list -->
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='shell' or post.keywords contains 'shell' %}
+                {% if post.category=='shell' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -23,15 +15,16 @@ permalink: /redis
                 </li>
                 {% endif %}
             {% endfor %}
-        </ul> 
+        </ul>
 
         <!-- Pagination -->
-        <!-- {% include pagination.html %} -->
+        {% include pagination.html %}
 
         <!-- Comments -->
-       <!-- <div class="comment">
+       <div class="comment">
          {% include comments.html %}
-       </div> -->
+       </div>
+
     </div>
 
 </div>
