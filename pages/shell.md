@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Redis系列
-titlebar: redis
-menu: redis
+title: shell
+titlebar: shell
+menu: shell
 css: ['blog-page.css']
-permalink: /redis
+permalink: /shell
 ---
 
 <div class="row">
