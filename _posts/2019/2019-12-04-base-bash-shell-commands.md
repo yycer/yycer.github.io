@@ -92,5 +92,5 @@ tail -num file_name(Default 10 lines)
 ```
 
 ## `Reference`  
-- 《Linux命令行与Shell脚本编程大全·第三版》 - 第二章(基本的bash shell命令)   
+- 《Linux命令行与Shell脚本编程大全·第三版》 - 第三章(基本的bash shell命令)   
 
