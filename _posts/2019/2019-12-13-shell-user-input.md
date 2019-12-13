@@ -135,7 +135,8 @@ The parameter is frankie
 
 ## 获得用户输入  
 
-- 用户输入
+- 用户输入  
+
 ``` shell
 // -p represents prompt.
 read -p "Please enter the name: " name
