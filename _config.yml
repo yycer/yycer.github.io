@@ -216,6 +216,12 @@ labels:
     label: 游记
     target: _self
 
+  -
+    href: /computer.html
+    label: 计算机
+    target: _self
+
+
 
   # -
   #   href: /open-source.html
