@@ -221,6 +221,15 @@ labels:
     label: 计算机
     target: _self
 
+  -
+    href: /working-experience.html
+    label: 工作经验
+    target: _self
+
+  -
+    href: /project-summary.html
+    label: 项目总结
+    target: _self
 
 
   # -
