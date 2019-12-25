@@ -28,7 +28,8 @@ permalink: /link
 - [Redis 命令参考](http://doc.redisfans.com/)
 
 ## 好文章
-- [硬盘基本知识（磁头、磁道、扇区、柱面）](https://www.cnblogs.com/jswang/p/9071847.html)
+- [硬盘基本知识（磁头、磁道、扇区、柱面）](https://www.cnblogs.com/jswang/p/9071847.html){:target="_blank"}
+- [IntelliJ IDEA maven库下载依赖包速度慢的问题](https://www.cnblogs.com/skying555/p/8729733.html){:target="_blank"}
 
 
 <!-- ## 个人链接
