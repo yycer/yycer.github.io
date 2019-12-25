@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 链表基础
+title: 链表 - 基础
 category: algorithm
 tags: [algorithm]
 excerpt: The Basic of Linked List
