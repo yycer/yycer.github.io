@@ -290,6 +290,46 @@ public void newScheduledThreadPoolTest() throws InterruptedException {
 同时它包含一些方法，比如：判断操作是否完成、等待任务完成、取消任务、或者获得操作的结果。  
 你只能当任务执行完成后，才能获得操作的结果，否则该线程会阻塞`Blocking`。  
 
+<br>
+<br>
+==============================================================================
+==============================2020/01/04补充==================================
+==============================================================================
+
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/thread_pool_addition_20200104.png)
+
+这次修改主要是结合`《Java并发编程的艺术》 - 第9章(Java中的线程池)`，增加了对线程池的理解。  
+
+## 线程池主要处理流程  
+
+主要涉及核心线程池`CorePoolSize`、阻塞队列`RunnableTaskQueue`、最大线程数`MaximumPoolSize`，具体流程如下图所示：  
+
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/thread_pool_process.png)  
+
+
+
+## 线程池的使用  
+
+#### 创建线程池  
+
+- `CorePoolSize`: 核心线程池的大小。  
+- `MaximumPoolSize`: 线程池的最大数量，若使用无界阻塞队列，该参数失去意义。  
+- `KeepAliveTime`: 线程池中工作线程空闲后，存活的时间。空闲线程包括所有大于核心线程池的线程或核心线程`allowCoreThreadTimeOut`。  
+- `TimeUnit`: 线程存活时间的单位，如: `DAYS、HOURS、MINUTES、SECONDS...`  
+- `RunnableTaskQueue`: 用于保存等待执行任务的阻塞队列。  
+- `RejectedExecutionHandler`: 当线程池和阻塞队列都满了，实行的饱和策略，如：`AbortPolicy[直接抛出异常]、DiscardOldestPolicy[丢弃最近的一个任务]、DiscardPolicy[不处理，丢弃当前任务]...`  
+
+
+#### 提交任务  
+
+- `execute()`: 用于提交不需要返回值的任务。  
+- `submit()`: 用于提交需要返回值的任务，线程池会返回一个`Future`类型的对象。  
+
+#### 关闭线程池  
+
+- `shutdown()`: 将线程池的状态设置为`SHUTDOWN`，然后中断所有尚未执行的任务。  
+- `shutdownNow()`: 将线程池的状态设置为`STOP`，尝试中断所有正在执行和暂停的任务。  
+
 
 
 <br>
@@ -297,3 +337,4 @@ public void newScheduledThreadPoolTest() throws InterruptedException {
 - [Java Concurrency / Multithreading Basics](https://www.callicoder.com/java-concurrency-multithreading-basics/){:target="_target"}
 - [Java ThreadPoolExecutor shutdownNow() Method](https://www.javatpoint.com/java-threadpoolexecutor-shutdownnow-method){:target="_target"}
 - [The difference between the Runnable and Callable interfaces in Java](https://stackoverflow.com/questions/141284/the-difference-between-the-runnable-and-callable-interfaces-in-java){:target="_target"}
+- 《Java并发编程的艺术》 - 第9章(Java中的线程池)  
