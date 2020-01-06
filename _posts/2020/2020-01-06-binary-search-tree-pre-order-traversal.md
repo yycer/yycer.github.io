@@ -71,7 +71,7 @@ public void preOrderTraversalUsingStackAndLoopTest(){
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/pre_order_traversal_using_stack_and_loop.png)
 
 <br>
-## `Pre-order traversal using recursive`  
+## `Pre-order traversal using recursion`  
 
 使用`递归`方式实现`前序遍历`时，需要注意：当前节点为`null`时，应直接跳过。  
 
@@ -88,7 +88,7 @@ public static void preOrderTraversalUsingRecursion(TreeNode node){
 }
 
 @Test
-public void preOrderTraversalRecursiveTest(){
+public void preOrderTraversalUsingRecursionTest(){
     TreeUtils tu = new TreeUtils();
     tu.addTreeNode(4);
     tu.addTreeNode(2);
