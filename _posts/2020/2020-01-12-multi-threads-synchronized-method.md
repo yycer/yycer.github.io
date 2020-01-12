@@ -6,7 +6,7 @@ tags: [multithread]
 excerpt: Synchronized Method.
 ---
 
-# 非线程安全  
+## 非线程安全  
 
 我们先来看个非线程安全的例子：  
 
@@ -61,7 +61,7 @@ public void methodPrivateNumTest() throws InterruptedException {
 最简单的方法就是将`addNum()`方法设置成`synchronized`的，但这也可能会造成`锁粒度`太粗，导致性能很差。  
 
 
-# 多个对象多个锁  
+## 多个对象多个锁  
 
 ``` java 
 public class MultiObjectMultiLock {
@@ -119,7 +119,7 @@ public void multiObjectMultiLockTest() throws InterruptedException {
 可以很清楚的看到，若使用的是同一个对象，执行线程`A`和`B`需要`3`秒，若使用各自创建的对象，就是异步执行，仅需要`2`秒。  
 
 
-# 一半同步，一半异步  
+## 一半同步，一半异步  
 
 ``` java 
 public class HalfAsyncHalfSync {
@@ -163,7 +163,7 @@ public void syncMethodHalfSyncHalfAsyncTest() throws InterruptedException {
 可以看到`syncMethodA`是同步方法，而`methodB`是一个普通方法，当两者可以异步执行，因此总共花的时间也只有`2`秒。  
 
 
-# `synchronized重入锁`  
+## `synchronized重入锁`  
 
 首先解释下什么是重入锁？  
 
@@ -268,7 +268,7 @@ public void reentrantLockTest() throws InterruptedException {
 // 2020-01-12T15:53:46.102 reentrantChildMethod() end
 ```
 
-# 出现异常，锁自动释放 
+## 出现异常，锁自动释放 
 
 ``` java 
 public class ExceptionReleaseLock {
@@ -317,7 +317,7 @@ public void exceptionReleaseLockTest() throws InterruptedException {
 
 
 
-# 同步不具备继承性  
+## 同步不具备继承性  
 
 ``` java 
 public class ReentrantChildService extends ReentrantService {
@@ -380,5 +380,5 @@ public void syncMethodDoesNotHaveInheritTest() throws InterruptedException {
 ```
 
 
-# `Reference`  
+## `Reference`  
 - `《Java多线程编程核心技术》 - 2.1 synchronized同步方法`  
