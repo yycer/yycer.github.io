@@ -68,3 +68,11 @@ public void regExpTest(){
     boolean matches23 = Pattern.matches("[0-9]{11}", "111112222233");
 }
 ```
+
+
+## `如何找到并杀死进程`  
+
+``` shell
+netstat -ano | find "port"
+taskkill -f -pid processId
+```
