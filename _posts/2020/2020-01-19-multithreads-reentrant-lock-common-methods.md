@@ -252,6 +252,18 @@ public void hasQueuedThreadTest() throws InterruptedException {
 
 ``` java
 public class PlayLock {
+    public void doGetWaitQueueLength(){
+        try {
+            lock.lock();
+            System.out.println(Thread.currentThread().getName() + " enter doGetWaitQueueLength()");
+            condition1.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+    }
+
     public void doHasWaiters(){
         try {
             lock.lock();
