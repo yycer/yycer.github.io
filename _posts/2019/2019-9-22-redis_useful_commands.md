@@ -214,12 +214,12 @@ rpoplpush source destination
 
 - 如何往Set中添加一个元素？
 ```
-sadd key v1 v2 v3
+sadd key element [element ...]
 ```
 
 - 如何删除Set中某个元素？ 
 ```
-srem key member [member...]
+srem key element [element...]
 ```
 
 - 如何获得Set中所有元素？
@@ -230,7 +230,7 @@ smembers key
 
 - 如何判断Set是否包含某个元素？
 ```
-sismember key value
+sismember key element
 ```
 
 - 如何获得Set的元素数量？
@@ -240,12 +240,12 @@ scard key
 
 - 如何获得两个Set的交集？
 ```
-sinter key1 key2
+sinter key [key ...]
 ```
 
 - 如何获得两个Set的并集？
 ```
-sunion key1 key2
+sunion key [key ...]
 ```
 
 - 如何获得两个Set的差集？
