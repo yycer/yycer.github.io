@@ -6,6 +6,11 @@ tags: [redis]
 excerpt: Redis List
 ---
 
+## 特点  
+
+- 有序  
+- 可重复  
+
 ## 常用命令  
 
 - 增  
