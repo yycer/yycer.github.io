@@ -13,3 +13,8 @@ excerpt: Linux Useful Commands
 ``` shell
 find DIR_NAME -type f | wc -l
 ```
+
+
+`Reference`  
+
+- [Recursively counting files in a Linux directory](https://stackoverflow.com/questions/9157138/recursively-counting-files-in-a-linux-directory){:target="_blank"}
