@@ -268,6 +268,8 @@ zunionstore destination numkeys key [key ...] [weights weight [weight ...]]
 - `ziplist`  
 - `skiplist`  
 
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/sorted_set_encoding.png)  
+
 
 证明：  
 
