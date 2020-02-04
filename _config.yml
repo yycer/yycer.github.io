@@ -114,8 +114,8 @@ navs:
     target: _self
 
   -
-    href: /redis.html
-    label: Redis
+    href: /shell.html
+    label: Shell
     target: _self
 
   -
@@ -258,7 +258,7 @@ classes:
 
   -
     href: /redis.html
-    name: JVM
+    name: Redis
     describe: 与数据库共患难
 
   -
