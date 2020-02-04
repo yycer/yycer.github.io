@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Final修饰符
-category: Spring
+category: java-basic
 tags: [spring, java]
 excerpt: Java Final Modifier
 ---

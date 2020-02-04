@@ -114,13 +114,13 @@ navs:
     target: _self
 
   -
-    href: /springboot.html
-    label: Spring Boot
+    href: /redis.html
+    label: Redis
     target: _self
 
   -
-    href: /springcloud.html
-    label: Spring Cloud
+    href: /Spring.html
+    label: Spring
     target: _self
 
   -
@@ -252,14 +252,14 @@ labels:
 classes:
 
   -
-    href: /java-basic.html
-    name: Java基础
-    describe: 追求扎实的Java基础
+    href: /multithread.html
+    name: 多线程
+    describe: 速度与准度的平衡
 
   -
-    href: /jvm.html
+    href: /redis.html
     name: JVM
-    describe: 窥探Java虚拟机的真谛
+    describe: 与数据库共患难
 
   -
     href: /database.html
