@@ -11,17 +11,16 @@ permalink: /link
 
 - [纯洁的微笑](http://www.ityouknow.com/){:target="_blank"}
 - [阮一峰](http://www.ruanyifeng.com/blog/){:target="_blank"}
-- [五月的仓颉](https://www.cnblogs.com/xrq730/){:target="_blank"}
+- [五月的仓颉](https://www.cnblogs.com/xrq730/){:target="_blank"} - `集合、NIO、设计模式`
 
 
 ## 推荐博主  
 
 - [Marion](https://www.majingjing.cn/){:target="_blank"}
-- [寻觅beyond](https://www.cnblogs.com/-beyond/category/961475.html) - Shell教程
-- [ookamiAntD](https://yangbingdong.com/){:target="_blank"}  
+- [寻觅beyond](https://www.cnblogs.com/-beyond/category/961475.html) - `Shell`
+- [ookamiAntD](https://yangbingdong.com/){:target="_blank"} - `UML、Disruptor、Docker`  
 - [Matrix海 子](https://www.cnblogs.com/dolphin0520/){:target="_blank"}   
-- [程序羊](https://www.codesheep.cn){:target="_blank"}   
-- [唐亚峰](https://blog.battcn.com/){:target="_blank"}   
+- [唐亚峰](https://blog.battcn.com/){:target="_blank"} - `Spring Boot、Spring Cloud、Netty、设计模式`   
 - [徐靖峰](https://www.cnkirito.moe/archives/){:target="_blank"}  
 - [陈树义](https://www.cnblogs.com/chanshuyi/){:target="_blank"}  
 - [嘟嘟](http://tengj.top/){:target="_blank"}  
