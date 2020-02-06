@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 工具 - IDEA提交项目至Github
+title: 工具 - IDEA首次提交项目至Github
 category: tool
 tags: [tool]
-excerpt: Push project into Github using IDEA
+excerpt: Push project into Github using IDEA for the first time
 ---
 
 本文主要记录：如何使用`IDEA`将`SpringBoot`项目上传至`Github`。  
