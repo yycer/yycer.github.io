@@ -17,9 +17,10 @@ excerpt: Push project into Github using IDEA for the first time
 
 - 将项目提交至仓库  
 
+`Ctrl + K`： Commit changes.
+`Ctrl + Shift + K`： Push commits to Github.  
+
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/2_idea_commit_project.png)  
-
-
 
 
 ## 将项目导入`Github`  
