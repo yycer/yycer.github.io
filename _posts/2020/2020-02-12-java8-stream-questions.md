@@ -110,7 +110,7 @@ public void streamPracticeTest(){
 }
 ```
 
-`优化2： 使用集合`:  
+`解法2： 使用集合`:  
 
 ``` java
 @Test
@@ -231,7 +231,7 @@ public void streamPracticeTest(){
 
 答案是：`装拆箱`，注意`Integer`喔。  
 
-`优化1： Comparator.comparingInt()`:  
+`解法1： Comparator.comparingInt()`:  
 
 ``` java
 @Test
@@ -243,13 +243,24 @@ public void streamPracticeTest(){
 }
 ```
 
-`优化2： max(Comparator<? super T> comparator)`:  
+`优化： max(Comparator<? super T> comparator)`:  
 
 ``` java
 @Test
 public void streamPracticeTest(){
     Optional<Transaction> highestTran = transactions.stream().max(Comparator.comparingInt(Transaction::getValue));
     highestTran.ifPresent(tran -> System.out.println("highestValue = " + tran.getValue()));
+    // highestValue = 1000
+}
+```
+
+`解法2： 转换为IntStream然后max()`:  
+
+``` java
+@Test
+public void streamPracticeTest(){
+    int highestValue = transactions.stream().mapToInt(Transaction::getValue).max().orElse(0);
+    System.out.println("highestValue = " + highestValue);
     // highestValue = 1000
 }
 ```
