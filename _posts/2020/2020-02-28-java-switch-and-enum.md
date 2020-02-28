@@ -86,7 +86,11 @@ switch (expression){
 }
 ```
 
-来说下`expression`它仅支持六种类型：`char`、`byte`、`short`、`int`、`enum`、`String[Java7]`。  
+两个关键点：
+
+- `expression`: 仅支持六种类型，`char`、`byte`、`short`、`int`、`enum`、`String[Java7]`。  
+- `break`: 一旦命中指定`condition`，执行完相应逻辑立即结束。  
+
 
 结合枚举类举个例子：  
 
