@@ -102,23 +102,23 @@ void simpleEnumTest(){
 }
 
 public static void describeSeason(SeasonEnum s){
-        switch (s){
-            case SPRING:
-                System.out.println("Spring coming.");
-                break;
-            case SUMMER:
-                System.out.println("Summer coming.");
-                break;
-            case FALL:
-                System.out.println("Fall coming.");
-                break;
-            case WINTER:
-                System.out.println("Winter coming.");
-                break;
-            default:
-                throw new RuntimeException("Please enter valid season!");
-        }
+    switch (s){
+        case SPRING:
+            System.out.println("Spring coming.");
+            break;
+        case SUMMER:
+            System.out.println("Summer coming.");
+            break;
+        case FALL:
+            System.out.println("Fall coming.");
+            break;
+        case WINTER:
+            System.out.println("Winter coming.");
+            break;
+        default:
+            throw new RuntimeException("Please enter valid season!");
     }
+}
 ```
 
 
