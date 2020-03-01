@@ -205,8 +205,8 @@ void recursionTest(){
 ``` java
 public class FiveVariable {
 
-    private       String classInstanceVariable = "classInstanceVariable";
-    public static String classStaticVariable   = "classStaticVariable";
+    private       String instanceVariable = "instanceVariable";
+    public static String staticVariable   = "staticVariable";
 
     public void getName(String formalParameter){
         String methodLocalVariable = "methodLocalVariable";
