@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Java - [面向对象]方法
+title: Java - [面向对象]方法和变量
 category: java-basic
 tags: [spring, java]
-excerpt: Java OOP Method
+excerpt: Java OOP Method And Variable
 ---
 
 本文梳理下方法，主要涉及如下几个方面：  
@@ -194,6 +194,40 @@ void recursionTest(){
     System.out.println(ret);
 }
 ```
+
+
+## 变量  
+
+再来介绍下变量。  
+
+`Java`中一共有几种类型的变量？  
+
+``` java
+public class FiveVariable {
+
+    private       String classInstanceVariable = "classInstanceVariable";
+    public static String classStaticVariable   = "classStaticVariable";
+
+    public void getName(String formalParameter){
+        String methodLocalVariable = "methodLocalVariable";
+    }
+
+    {
+        String blockLocalVariable = "blockLocalVariable";
+    }
+}
+```
+
+一共有五种，分为两类：
+
+- 成员变量  
+    + 实例成员变量： `classInstanceVariable`  
+    + 类成员变量： `classStaticVariable`  
+- 局部变量
+    + 形参： `formalParameter`  
+    + 方法局部变量： `methodLocalVariable`  
+    + 代码块局部变量： `blockLocalVariable`  
+
 
 
 ## `reference`  
