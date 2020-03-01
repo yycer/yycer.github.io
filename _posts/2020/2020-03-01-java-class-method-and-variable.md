@@ -221,8 +221,8 @@ public class FiveVariable {
 一共有五种，分为两类：
 
 - 成员变量  
-    + 实例成员变量： `classInstanceVariable`  
-    + 类成员变量： `classStaticVariable`  
+    + 实例成员变量： `instanceVariable`  
+    + 类成员变量： `staticVariable`  
 - 局部变量
     + 形参： `formalParameter`  
     + 方法局部变量： `methodLocalVariable`  
