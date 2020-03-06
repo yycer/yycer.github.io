@@ -6,6 +6,93 @@ tags: [spring, java]
 excerpt: Java8 New Date And Time 
 ---
 
+## `2020_0306更新理解`  
+
+这次主要补充下`Date`与`LocalDate/LocalDateTime`的区别：  
+
+首先，后者更为直观：   
+
+
+``` java
+@Test
+void dateVsLocalDateTimeTest(){
+    Date date = new Date();
+    System.out.println(date);
+    date.setMonth(0);
+    date.setHours(0);
+    date.setMinutes(0);
+    date.setSeconds(0);
+    System.out.println(date);
+
+    LocalDateTime now = LocalDateTime.now();
+    System.out.println(now);
+
+    now = now.withMonth(1);
+    System.out.println(now);
+}
+
+// Fri Mar 06 18:39:35 CST 2020
+// Mon Jan 06 00:00:00 CST 2020
+// 2020-03-06T18:39:35.964169100
+// 2020-01-06T18:39:35.964169100
+```
+
+可以看到，`Date`中`Month=0`代表的是一月。  
+
+第二点，比较重要：`LocalDateTime`是`线程安全`的。  
+
+首先`LocalDateTime`被`final`关键字修饰，说明什么？  
+
+它没有子类。  
+
+再看下它的构造函数：  
+
+```
+/**
+ * Constructor.
+ *
+ * @param date  the date part of the date-time, validated not null
+ * @param time  the time part of the date-time, validated not null
+ */
+private LocalDateTime(LocalDate date, LocalTime time) {
+    this.date = date;
+    this.time = time;
+}
+```
+
+说明什么？  
+
+不能直接通过构造器生成`LocalDateTime`对象，只能通过内部的方法调用生成。  
+
+再来看下它的两个实例成员变量：  
+
+```java
+/**
+ * The date part.
+ */
+private final LocalDate date;
+/**
+ * The time part.
+ */
+private final LocalTime time;
+```
+
+说明什么？  
+
+首先，`final`修饰的变量只能被赋值一次。  
+
+再来，这两个都是实例成员变量，那么被赋值的场景有哪些？  
+
+- 构造器  
+- 声明时赋值  
+- 实例初始化代码块块  
+
+很明显，当下它只能通过构造器赋值，通过这种不可变，进而保证了线程安全。  
+
+其他的优点，比如更丰富的方法支持、链式方法调用等，这些还需要在项目中体会体会~  
+
+
+
 ## 计算程序执行时间  
 
 ``` java
