@@ -50,7 +50,12 @@ void priorityQueueTest(){
 // Do   poll: 3
 // Do   poll: 5
 ```
+可以得出以下结论：  
 
+- 是否允许添加重复元素？ 是  
+- 是否线程安全？ 否  
+- 是否有序？ 根据元素值正序排列  
+- 是否允许添加`null`？ 否  
 
 ## `ArrayDeque`  
 
@@ -74,6 +79,8 @@ void arrayDequeTest(){
     adStack.push(5); // addFirst()
     adStack.push(2);
     adStack.push(3);
+    adStack.push(3);
+    // adStack.push(null);
     System.out.println(adStack);
 
     while (!adStack.isEmpty()){
@@ -93,7 +100,8 @@ void arrayDequeTest(){
     }
 }
 // /** As stack **/
-// [3, 2, 5]
+// [3, 3, 2, 5]
+// Polled element in adStack is 3
 // Polled element in adStack is 3
 // Polled element in adStack is 2
 // Polled element in adStack is 5
@@ -104,6 +112,15 @@ void arrayDequeTest(){
 // Polled element in adQueue is 2
 // Polled element in adQueue is 3
 ```
+
+
+可以得出以下结论：  
+
+- 是否允许添加重复元素？ 是  
+- 是否线程安全？ 否  
+- 是否有序？ 栈`[LIFO: Last In First Out]`、队列`[FIFO: First In First Out]`  
+- 是否允许添加`null`？ 否  
+
 
 ## `LinkedList`  
 
@@ -117,6 +134,24 @@ void arrayDequeTest(){
 
 而后者用链表保存集合中的元素，所以`插入`、`删除`元素时性能更佳。  
 
+``` java
+@Test
+void linkedListTest(){
+    LinkedList<Integer> ll = new LinkedList<>();
+    ll.add(5);
+    ll.add(2);
+    ll.add(3);
+    ll.add(3);
+    ll.add(null);
+    System.out.println(ll);
+    // [5, 2, 3, 3, null]
+}
+```
+
+- 是否允许添加重复元素？ 是  
+- 是否线程安全？ 否  
+- 是否有序？ 若使用`add()`方法，维护元素原始插入顺序。  
+- 是否允许添加`null`？ 是  
 
 
 ## `Reference`  
