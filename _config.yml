@@ -148,8 +148,23 @@ labels:
     target: _self
 
   -
+    href: /collection.html
+    label: 集合
+    target: _self
+
+  -
     href: /jvm.html
     label: JVM
+    target: _self
+
+  -
+    href: /multithread.html
+    label: 多线程
+    target: _self
+
+  -
+    href: /Spring.html
+    label: Spring
     target: _self
 
   -
@@ -163,6 +178,11 @@ labels:
     target: _self
 
   -
+    href: /design-pattern.html
+    label: 设计模式
+    target: _self
+
+  -
     href: /tool.html
     label: 工具
     target: _self
@@ -172,20 +192,6 @@ labels:
     label: 单元测试
     target: _self
 
-  -
-    href: /collection.html
-    label: 集合
-    target: _self
-
-  -
-    href: /multithread.html
-    label: 多线程
-    target: _self
-
-  -
-    href: /Spring.html
-    label: Spring
-    target: _self
   -
     href: /network.html
     label: 网络
@@ -199,11 +205,6 @@ labels:
   -
     href: /message.html
     label: 消息队列
-    target: _self
-
-  -
-    href: /design-pattern.html
-    label: 设计模式
     target: _self
 
   -
