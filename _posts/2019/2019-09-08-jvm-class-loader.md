@@ -193,20 +193,9 @@ public class Initialization {
 - 用户类加载器（User ClassLoader）
  
 <br>
-## 疑问
-> 1.什么时候触发类加载的加载阶段？  
+## 疑问  
 
-- 运行时，用到四大字节码指令
-    * `new`关键字实例化对象。
-    * 读取`getStatic`、设置`putStatic`类字段。
-    * 调用类方法`invokeStatic`。
-- 对类进行反射调用。
-    - 调用`java.lang.reflect`包中方法。
-- 父类尚未加载。
-    - 当初始化某个类时，若发现该父类尚未初始化，则优先触发父类初始化。
- 
-
-> 2.Java虚拟机规范允许系统预加载某些类。  
+> 1.Java虚拟机规范允许系统预加载某些类。  
 
 - 哪些类？ 系统经常用到的，如：`java.util.*`、`java.lang.*`、`sun.reflect.*`
 - 如何证明？ 启动项目时添加`-XX:+TraceClassLoading`虚拟机参数。  
