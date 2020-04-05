@@ -232,6 +232,11 @@ labels:
     label: 项目总结
     target: _self
 
+  -
+    href: /replay.html
+    label: 复盘
+    target: _self
+
 
   # -
   #   href: /open-source.html
