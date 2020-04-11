@@ -199,3 +199,4 @@ public void registerAlias(String name, String alias) {
 
 ## `Reference`  
 - `《Spring源码深度解析》 - 第三章 [bean标签的解析及注册]`
+- [Spring 通过工厂方法(Factory Method)来配置bean](https://www.cnblogs.com/mochaMM/p/6925366.html){:target="_blank"}
