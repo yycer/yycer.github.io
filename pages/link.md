@@ -9,13 +9,19 @@ permalink: /link
 
 ## 首推  
 
-- [纯洁的微笑](http://www.ityouknow.com/){:target="_blank"}
-- [阮一峰](http://www.ruanyifeng.com/blog/){:target="_blank"}
-- [五月的仓颉](https://www.cnblogs.com/xrq730/){:target="_blank"} - `集合、NIO、设计模式`
+- [阮一峰](http://www.ruanyifeng.com/blog/){:target="_blank"}  
+- [CyC](https://cyc2018.github.io/CS-Notes/#/){:target="_blank"}  
 
+## 算法  
+- [GourdErwa](https://github.com/GourdErwa/algorithms){:target="_blank"}  
+- [wangliang](https://leetcode.wang/){:target="_blank"}  
+- [labuladong的算法小抄](https://labuladong.gitbook.io/algo/){:target="_blank"}  
 
 ## 推荐博主  
 
+- [纯洁的微笑](http://www.ityouknow.com/){:target="_blank"}  
+- [五月的仓颉](https://www.cnblogs.com/xrq730/){:target="_blank"} - `集合、NIO、设计模式`
+- [Javadoop](https://www.javadoop.com/){:target="_blank"}  
 - [Marion](https://www.majingjing.cn/){:target="_blank"}
 - [寻觅beyond](https://www.cnblogs.com/-beyond/category/961475.html) - `Shell`
 - [ookamiAntD](https://yangbingdong.com/){:target="_blank"} - `UML、Disruptor、Docker`  
