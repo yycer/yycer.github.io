@@ -30,6 +30,12 @@ public class Chapter2Test {
     <bean id="myTestBean" class="com.frankie.demo.beans.MyTestBean"/>
 
 </beans>
+
+@Getter
+public class MyTestBean {
+
+    private String test = "test";
+}
 ```
 
 相信大家对这个例子都很熟悉，但是有没有仔细思考过其内部到底发生了什么？`Spring`到底做了哪些事情？  
