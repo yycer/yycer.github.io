@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: Java - 区分length属性、length()和size()方法
+category: tool
+tags: [tool]
+excerpt: lenght property, length() and size()
+---
 
 最近在`leetcode`刷题的时候，老是混淆`length`属性、`length()`和`size()`方法，因此写篇文章记录一下。  
 
