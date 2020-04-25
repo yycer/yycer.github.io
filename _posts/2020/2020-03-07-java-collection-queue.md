@@ -6,6 +6,7 @@ tags: [spring, java]
 excerpt: Java Collection Queue
 ---
 
+`Update 2020_0425`
 
 本文主要介绍下`Java`集合中的队列，整体关系图如下：  
 
