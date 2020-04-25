@@ -8,20 +8,20 @@ excerpt: Java Collection Set
 
 `Update 2020_0425`
 
-本文主要梳理下`Java`集合中的`Set`，主要从以下四个角度：  
+本文梳理下`Java`容器中的`Set`，主要从以下四个角度：  
 
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/collection_four_dimension.png)  
 
 
-再来看下`HashSet`、`LinkedHashSet`、`TreeSet`和`Collection`的关系图：  
+先来看下`HashSet`、`LinkedHashSet`、`TreeSet`和`Collection`的关系图：  
 
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/set_framework.png)  
 
 解释下这张图：  
 
-- `蓝色实线`表示类之间的继承关系  
-- `绿色实线`代表接口之间的继承关系  
-- `绿色虚线`代表类实现了某个接口  
+- `蓝色实线`表示`类`之间的继承关系  
+- `绿色实线`代表`接口`之间的继承关系  
+- `绿色虚线`代表`类`实现了某个`接口`  
 
 
 ## `HashSet`  
@@ -168,7 +168,7 @@ void treeSetTest(){
 
 - 是否允许添加`null`？ `否`  
 - 是否允许添加重复元素？ `否`  
-- 是否维持插入顺序？ `否，根据元素大小正序排列`  
+- 是否维持插入顺序？ `否，根据元素大小升序排列`  
 - 是否线程安全？ `否`  
 
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/treeSet_cannot_add_null.png)  
