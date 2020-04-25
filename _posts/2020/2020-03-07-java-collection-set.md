@@ -1,20 +1,19 @@
 ---
 layout: post
-title: Java - [集合]Set
-category: java-basic
+title: Java - [容器]Set
+category: collection
 tags: [spring, java]
 excerpt: Java Collection Set
 ---
 
+`Update 2020_0425`
+
 本文主要梳理下`Java`集合中的`Set`，主要从以下四个角度：  
 
-- `是否允许添加重复元素？`  
-- `是否线程安全？`  
-- `是否有序？`  
-- `是否允许添加null？`  
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/collection_four_dimension.png)  
 
 
-先来看下`HashSet`、`LinkedHashSet`、`TreeSet`和`Collection`的关系图：  
+再来看下`HashSet`、`LinkedHashSet`、`TreeSet`和`Collection`的关系图：  
 
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/set_framework.png)  
 
@@ -98,10 +97,10 @@ void hashSetTest(){
 
 可以得出以下结论：  
 
-- 是否允许添加重复元素？ 否  
-- 是否线程安全？ 否  
-- 是否有序？ 否 
-- 是否允许添加`null`？ 是  
+- 是否允许添加`null`？ `是`  
+- 是否允许添加重复元素？ `否`  
+- 是否维持插入顺序？ `否` 
+- 是否线程安全？ `否`  
 
 非线程安全的原因是因为追溯`add()`方法并没有使用同步方法、并且操作的变量并没有使用`final`修饰。  
 
@@ -136,11 +135,10 @@ void linkedHashSetTest(){
 
 可以得出以下结论：  
 
-- 是否允许添加重复元素？ 否  
-- 是否线程安全？ 否 
-- 是否有序？ 保持元素插入顺序  
-- 是否允许添加`null`？ 是  
-
+- 是否允许添加`null`？ `是`  
+- 是否允许添加重复元素？ `否`  
+- 是否维持插入顺序？ `是`
+- 是否线程安全？ `否` 
 
 
 ## `TreeSet`  
@@ -154,20 +152,24 @@ void treeSetTest(){
     treeSet.add(3);
     treeSet.add(2);
     treeSet.add(2);
-//        treeSet.add(null);
-    System.out.println(treeSet); // [1, 2, 3, 5]
-    System.out.println("treeSet.headSet(3)    -> " + treeSet.headSet(3));
-    System.out.println("treeSet.tailSet(3)    -> " + treeSet.tailSet(3));
-    System.out.println("treeSet.subSet(-2, 3) -> " + treeSet.subSet(-2, 3));
+    // treeSet.add(null);
+    /** [1, 2, 3, 5] */
+    System.out.println(treeSet);
+    /** (-∞, 3): [1, 2] */
+    System.out.println("(-∞, 3): " + treeSet.headSet(3));
+    /** [3, +∞): [3, 5] */
+    System.out.println("[3, +∞): " + treeSet.tailSet(3));
+    /** [-2, 3): [1, 2] */
+    System.out.println("[-2, 3): " + treeSet.subSet(-2, 3));
 }
 ```
 
 可以得出以下结论：  
 
-- 是否允许添加重复元素？ 否  
-- 是否线程安全？ 否 
-- 是否有序？ 根据元素值正序排列  
-- 是否允许添加`null`？ 否  
+- 是否允许添加`null`？ `否`  
+- 是否允许添加重复元素？ `否`  
+- 是否维持插入顺序？ `否，根据元素大小正序排列`  
+- 是否线程安全？ `否`  
 
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/treeSet_cannot_add_null.png)  
     

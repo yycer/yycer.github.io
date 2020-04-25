@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Java - [集合]Queue
-category: java-basic
+title: Java - [容器]Queue
+category: collection
 tags: [spring, java]
 excerpt: Java Collection Queue
 ---
