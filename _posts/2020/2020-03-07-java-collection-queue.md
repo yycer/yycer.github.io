@@ -15,16 +15,19 @@ excerpt: Java Collection Queue
 
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/queue_methods.png)  
 
+接下来从四个维度分析三种队列：  
+
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/collection_four_dimension.png)  
 
 ## `PriorityQueue`  
 
-`PriorityQueue`根据`元素的大小`进行重新排序，而不是维护了`元素插入的原始顺序`，所以一定程度上违反了`FIFO`先进先出原则！  
+`PriorityQueue`根据`元素的大小`进行重新排序，而不是维护了`元素插入的原始顺序`。   
 
 ``` java
 @Test
 void priorityQueueTest(){
     PriorityQueue<Integer> pq = new PriorityQueue<>();
-    /** Insert -> add() and offer() **/
+    /** offer() and add() **/
     pq.offer(5);
     pq.offer(2);
     pq.offer(3);
@@ -32,10 +35,10 @@ void priorityQueueTest(){
     pq.offer(1);
     // pq.offer(null);
 
-    /** Select -> element() and peek() **/
+    /** peek() and element() **/
     System.out.println("Just peek: " + pq.peek());
 
-    /** Delete -> remove() and poll() **/
+    /** poll() and remove() **/
     System.out.println(pq);
     while (!pq.isEmpty()){
         System.out.println("Do   poll: " + pq.poll());
@@ -52,15 +55,15 @@ void priorityQueueTest(){
 ```
 可以得出以下结论：  
 
-- 是否允许添加重复元素？ 是  
-- 是否线程安全？ 否  
-- 是否有序？ 根据元素值正序排列  
-- 是否允许添加`null`？ 否  
+- 是否允许添加`null`？ `否`  
+- 是否允许添加重复元素？ `是`  
+- 是否维持插入顺序？ `否` 
+- 是否线程安全？ `否`  
 
 ## `ArrayDeque`  
 
 
-`ArrayDeque`代表一个`双端队列`，可同时实现队列和栈。    
+`ArrayDeque`代表一个`双端队列`，可同时实现`队列`和`栈`。    
 
 下面来看下三者对应的方法：  
 
@@ -116,10 +119,10 @@ void arrayDequeTest(){
 
 可以得出以下结论：  
 
-- 是否允许添加重复元素？ 是  
-- 是否线程安全？ 否  
-- 是否有序？ 栈`[LIFO: Last In First Out]`、队列`[FIFO: First In First Out]`  
-- 是否允许添加`null`？ 否  
+- 是否允许添加`null`？ `否`  
+- 是否允许添加重复元素？ `是`  
+- 是否维持插入顺序？ `否，栈[LIFO: Last In First Out]、队列[FIFO: First In First Out]`  
+- 是否线程安全？ `否`  
 
 
 ## `LinkedList`  
@@ -148,11 +151,15 @@ void linkedListTest(){
 }
 ```
 
-- 是否允许添加重复元素？ 是  
-- 是否线程安全？ 否  
-- 是否有序？ 若使用`add()`方法，维护元素原始插入顺序。  
-- 是否允许添加`null`？ 是  
+- 是否允许添加`null`？ `是`  
+- 是否允许添加重复元素？ `是`  
+- 是否维持插入顺序？ `是` 
+- 是否线程安全？ `否`  
 
+
+总结：  
+
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/queue_features.png)  
 
 ## `Reference`  
 - `《疯狂Java讲义》 - 8.5 Queue集合`  
