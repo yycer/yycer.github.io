@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: Java7 - [容器]HashMap
+category: collection
+tags: [spring, java]
+excerpt: Java7 HashMap
+---
 
 本文从源码角度来梳理一下`Java7 HashMap`，主要从以下三个方面展开：  
 
