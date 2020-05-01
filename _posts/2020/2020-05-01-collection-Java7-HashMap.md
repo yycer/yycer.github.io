@@ -21,7 +21,7 @@ excerpt: Java7 HashMap
 
 上图来自`JavaDoop博主`，原文请参考：  
 
-[Java7/8 中的 HashMap 和 ConcurrentHashMap 全解析](https://www.javadoop.com/post/hashmap){target="_blank"}  
+[Java7/8 中的 HashMap 和 ConcurrentHashMap 全解析](https://www.javadoop.com/post/hashmap){:target="_blank"}  
 
 可以看到`HashMap`本质就是一个`数组`，其中的每个元素都是一个`单向链表`。  
 
@@ -354,7 +354,7 @@ void transfer(Entry[] newTable, boolean rehash) {
 
 在`resize()`方法中，首先创建了一个`双倍`容量的数组，然后通过`transfer()`方法复制原先数组中的数据，这里需要格外注意一点，在并发情况下，`transfer()`这个方法可能会造成循环链表，从而导致后续查询过程发生死循环！  
 
-具体可参考： [A Beautiful Race Condition](https://mailinator.blogspot.com/2009/06/beautiful-race-condition.html){target="_blank"}  
+具体可参考： [A Beautiful Race Condition](https://mailinator.blogspot.com/2009/06/beautiful-race-condition.html){:target="_blank"}  
 
 
 后面就是重新计算`hash`值和桶下标，最后插入键值对。  
@@ -364,7 +364,7 @@ void transfer(Entry[] newTable, boolean rehash) {
 
 最后分享一个使用`put()`方法的小技巧，有兴趣的可以看看：  
 
-[leetcode - [205] Isomorphic Strings](http://yaoyichen.cn/algorithm/2020/04/21/leetcode-205.html){target="_blank"}  
+[leetcode - [205] Isomorphic Strings](http://yaoyichen.cn/algorithm/2020/04/21/leetcode-205.html){:target="_blank"}  
 
 `Amazing!`  
 
@@ -414,5 +414,5 @@ final Entry<K,V> getEntry(Object key) {
 
 
 ## `Reference`  
-- [Java7/8 中的 HashMap 和 ConcurrentHashMap 全解析](https://www.javadoop.com/post/hashmap){target="_blank"}  
-- [A Beautiful Race Condition](https://mailinator.blogspot.com/2009/06/beautiful-race-condition.html){target="_blank"}  
+- [Java7/8 中的 HashMap 和 ConcurrentHashMap 全解析](https://www.javadoop.com/post/hashmap){:target="_blank"}  
+- [A Beautiful Race Condition](https://mailinator.blogspot.com/2009/06/beautiful-race-condition.html){:target="_blank"}  
