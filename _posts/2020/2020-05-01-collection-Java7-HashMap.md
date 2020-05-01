@@ -68,7 +68,7 @@ public V put(K key, V value) {
 
 - `Part 1`：初始化数组。  
 - `Part 2`：插入`Key`为`null`的键值对。  
-- `Part 3`：确认桶下标，并可能替换并返回旧值。  
+- `Part 3`：确定桶下标，并可能替换并返回旧值。  
 - `Part 4`：插入新键值对。  
 
 
@@ -239,7 +239,7 @@ private V putForNullKey(V value) {
 
 
 
-#### 确认桶下标  
+#### 确定桶下标  
 
 接下来让我们再来看下如何确定桶下标？  
 
