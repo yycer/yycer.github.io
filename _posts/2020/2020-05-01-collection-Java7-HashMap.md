@@ -12,6 +12,8 @@ excerpt: Java7 HashMap
 - `put()`  
 - `get()`  
 
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/collection-Java7-HashMap-frame.png)  
+
 
 ## 存储结构  
 
