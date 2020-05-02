@@ -7,6 +7,11 @@ excerpt: Java7 ConcurrentHashMap
 ---
 
 
+本文从源码角度来梳理一下`Java7 ConcurrentHashMap`：  
+
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/collection-Java7-ConcurrentHashMap-frame.png)  
+
+
 ## 存储结构  
 
 先来看下`JavaDoop博主`画的示意图：  
