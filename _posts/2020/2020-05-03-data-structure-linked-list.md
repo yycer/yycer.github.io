@@ -55,6 +55,7 @@ newNode.next = curNode.next;
 
 更换两行代码顺序，先将新节点`2`指向当前节点的下一个节点`3`，然后令当前节点`1`指向新节点`2`。  
 
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/linked_list_insert.png)  
 
 - 考虑边界  
 
@@ -66,7 +67,7 @@ newNode.next = curNode.next;
 - 头尾节点  
 
 
-## 题目  
+## 实战题目  
 
 - [反转链表](http://yaoyichen.cn/algorithm/2020/03/24/leetcode-206.html){:target="_blank"}  
 - [链表中的环检测](http://yaoyichen.cn/algorithm/2020/03/26/leetcode-141.html){:target="_blank"}  
