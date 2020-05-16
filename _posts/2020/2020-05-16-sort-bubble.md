@@ -186,6 +186,6 @@ private static void playBubbleUsingCocktail(int[] arr) {
 }
 ```
 
-## reference  
+## Reference  
 - `《漫画算法 - 小灰的算法之旅》 - 4.2 什么是冒泡排序`  
 - [Sorting](http://sorting.at){:target="_blank"}
