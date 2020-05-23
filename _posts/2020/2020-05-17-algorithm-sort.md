@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 算法与数据结构 - 排序
+title: 算法与数据结构 - 排序总结
 category: algorithm
 tags: [algorithm]
 excerpt: Algorithm and Data structure - Sort
