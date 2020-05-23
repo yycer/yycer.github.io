@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 算法与数据结构 - 二分查找
+title: 算法与数据结构 - 二分查找总结
 category: algorithm
 tags: [algorithm]
 excerpt: Algorithm and Data structure - Binary Search
