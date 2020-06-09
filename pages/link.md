@@ -15,7 +15,9 @@ permalink: /link
 ## 算法  
 - [GourdErwa](https://github.com/GourdErwa/algorithms){:target="_blank"}  
 - [wangliang](https://leetcode.wang/){:target="_blank"}  
-- [labuladong的算法小抄](https://labuladong.gitbook.io/algo/){:target="_blank"}  
+- [柳婼](https://www.liuchuo.net/){:target="_blank"}  
+- [CILI](http://micili.cn/){:target="_blank"}  
+- [labuladong的算法小抄](https://labuladong.gitbook.io/algo/){:target="_blank"}    
 
 ## 推荐博主  
 
