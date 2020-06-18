@@ -96,3 +96,4 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - 28、[[72] Edit Distance](http://yaoyichen.cn/algorithm/2020/06/08/leetcode-72.html){:target="_blank"}    
 - *29、[[650] 2 Keys Keyboard](http://yaoyichen.cn/algorithm/2020/06/09/leetcode-650.html){:target="_blank"}    
 - *30、[[337] House Robber III](http://yaoyichen.cn/algorithm/2020/06/11/leetcode-337.html){:target="_blank"}   
+- *31、[[96] Unique Binary Search Trees](http://yaoyichen.cn/algorithm/2020/06/18/leetcode-96.html){:target="_blank"}   
