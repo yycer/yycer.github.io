@@ -98,3 +98,4 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - *30、[[337] House Robber III](http://yaoyichen.cn/algorithm/2020/06/11/leetcode-337.html){:target="_blank"}   
 - *31、[[96] Unique Binary Search Trees](http://yaoyichen.cn/algorithm/2020/06/18/leetcode-96.html){:target="_blank"}   
 - 32、[[53] Maximum Subarray](http://yaoyichen.cn/algorithm/2020/02/19/leetcode-53.html){:target="_blank"}   
+- 33、[[338] Counting Bits](http://yaoyichen.cn/algorithm/2020/03/21/leetcode-338.html){:target="_blank"}   
