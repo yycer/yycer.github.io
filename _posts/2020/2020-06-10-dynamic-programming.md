@@ -100,3 +100,4 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - 32、[[53] Maximum Subarray](http://yaoyichen.cn/algorithm/2020/02/19/leetcode-53.html){:target="_blank"}   
 - 33、[[338] Counting Bits](http://yaoyichen.cn/algorithm/2020/03/21/leetcode-338.html){:target="_blank"}   
 - 34、[[264] Ugly Number II](http://yaoyichen.cn/algorithm/2020/06/25/leetcode-264.html){:target="_blank"}   
+- *35、[[647] Palindromic Substrings](http://yaoyichen.cn/algorithm/2020/06/26/leetcode-647.html){:target="_blank"}   
