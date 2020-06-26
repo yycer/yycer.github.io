@@ -101,3 +101,4 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - 33、[[338] Counting Bits](http://yaoyichen.cn/algorithm/2020/03/21/leetcode-338.html){:target="_blank"}   
 - 34、[[264] Ugly Number II](http://yaoyichen.cn/algorithm/2020/06/25/leetcode-264.html){:target="_blank"}   
 - *35、[[647] Palindromic Substrings](http://yaoyichen.cn/algorithm/2020/06/26/leetcode-647.html){:target="_blank"}   
+- 36、[[5] Longest Palindromic Substring](http://yaoyichen.cn/algorithm/2020/06/26/leetcode-5.html){:target="_blank"}   
