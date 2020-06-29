@@ -30,3 +30,4 @@ excerpt: Algorithm and Data structure - Two Pointer
 - 6、[[345] Reverse Vowels of a String](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-345.html){:target="_blank"}  
 - 7、[[11] Container With Most Water](http://yaoyichen.cn/algorithm/2020/03/09/leetcode-11.html){:target="_blank"}  
 - *8、[[15] 3Sum](http://yaoyichen.cn/algorithm/2020/06/29/leetcode-15.html){:target="_blank"}  
+- *9、[[18] 4Sum](http://yaoyichen.cn/algorithm/2020/06/29/leetcode-18.html){:target="_blank"}  
