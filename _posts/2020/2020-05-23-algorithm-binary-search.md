@@ -35,3 +35,4 @@ excerpt: Algorithm and Data structure - Binary Search
 - [[278] First Bad Version](http://yaoyichen.cn/algorithm/2020/05/20/leetcode-278.html){:target="_blank"}  
 - [[153] Find Minimum in Rotated Sorted Array](http://yaoyichen.cn/algorithm/2020/05/20/leetcode-153.html){:target="_blank"}  
 - [[34] Find First and Last Position of Element in Sorted Array](http://yaoyichen.cn/algorithm/2020/05/22/leetcode-34.html){:target="_blank"}  
+- [[167] Two Sum II - Input array is sorted](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-167.html){:target="_blank"}  
