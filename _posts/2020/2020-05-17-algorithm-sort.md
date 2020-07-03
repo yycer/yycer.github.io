@@ -20,6 +20,9 @@ excerpt: Algorithm and Data structure - Sort
 
 ## 实战  
 
-- [[215] Kth Largest Element in an Array](http://yaoyichen.cn/algorithm/2020/05/17/leetcode-215.html){:target="_blank"}  
-- [[347] Top K Frequent Elements](http://yaoyichen.cn/algorithm/2020/05/17/leetcode-347.html){:target="_blank"}  
-- [[75] Sort Colors](http://yaoyichen.cn/algorithm/2020/04/27/leetcode-75.html){:target="_blank"}  
+- 1、[[215] Kth Largest Element in an Array](http://yaoyichen.cn/algorithm/2020/05/17/leetcode-215.html){:target="_blank"}  
+- 2、[[347] Top K Frequent Elements](http://yaoyichen.cn/algorithm/2020/05/17/leetcode-347.html){:target="_blank"}  
+- 3、[[75] Sort Colors](http://yaoyichen.cn/algorithm/2020/04/27/leetcode-75.html){:target="_blank"}  
+- 4、[[164] Maximum Gap](http://yaoyichen.cn/algorithm/2020/07/03/leetcode-164.html){:target="_blank"}  
+
+
