@@ -102,3 +102,4 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - 34、[[264] Ugly Number II](http://yaoyichen.cn/algorithm/2020/06/25/leetcode-264.html){:target="_blank"}   
 - *35、[[647] Palindromic Substrings](http://yaoyichen.cn/algorithm/2020/06/26/leetcode-647.html){:target="_blank"}   
 - 36、[[5] Longest Palindromic Substring](http://yaoyichen.cn/algorithm/2020/06/26/leetcode-5.html){:target="_blank"}   
+- 37、[小灰 - 金矿问题](http://yaoyichen.cn/algorithm/2020/07/03/gold-mining.html){:target="_blank"}   
