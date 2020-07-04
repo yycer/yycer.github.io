@@ -30,10 +30,12 @@ excerpt: Algorithm and Data structure - Stack
 
 ## 实战题目  
 
-- [有效的括号](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-20.html){:target="_blank"}  
-- [最小栈](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-155.html){:target="_blank"}  
-- [用栈实现队列](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-232.html){:target="_blank"}  
-- [用队列实现栈](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-225.html){:target="_blank"}  
-- [退格字符串比较](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-844.html){:target="_blank"}  
-- [基础的计算器](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-224.html){:target="_blank"}  
+- 1、[有效的括号](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-20.html){:target="_blank"}  
+- 2、[最小栈](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-155.html){:target="_blank"}  
+- 3、[用栈实现队列](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-232.html){:target="_blank"}  
+- 4、[用队列实现栈](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-225.html){:target="_blank"}  
+- 5、[退格字符串比较](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-844.html){:target="_blank"}  
+- 6、[基础的计算器](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-224.html){:target="_blank"}  
+- *7、[[402] Remove K Digits](http://yaoyichen.cn/algorithm/2020/07/04/leetcode-402.html){:target="_blank"}  
+
 
