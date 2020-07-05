@@ -192,10 +192,9 @@ private static void createThreadUsingCallable() throws ExecutionException, Inter
 
 
 ``` java
-while (!Thread.currentThread().islnterrupted() && more work to do) {
-    do more work
+while (!Thread.currentThread().isInterrupted() && More_work_to_do) {
+    // Do more work
 }
-
 ```
 
 当你执行当前线程时，需要检查该线程的`中断标记位`，如果标记位为`true`，说明什么？  
@@ -241,21 +240,21 @@ while (!Thread.currentThread().islnterrupted() && more work to do) {
 
 
 ``` java
-class BlockingQueue {
+class BlockingQueue {
 
-    Queue<String> buffer = new LinkedList<String>();
+    Queue<String> buffer = new LinkedList<String> ();
 
-    public void produce(String data) {
-        buffer.add(data);
-        notify();
-    }
+    public void produce(String data) {
+        buffer.add(data);
+        notify();
+    }
 
-    public String consume() throws InterruptedException {
-        while (buffer.isEmpty()) {
-            wait();
-        }
-        return buffer.remove();
-    }
+    public String consume() throws InterruptedException {
+        while (buffer.isEmpty()) {
+            wait();
+        }
+        return buffer.remove();
+    }
 }
 ```
 
@@ -363,46 +362,49 @@ public static void main(String[] args) {
 
 
 ``` java
-public class MyBlockingQueueForCondition {
- 
-   private Queue queue;
-   private int max = 16;
-   private ReentrantLock lock = new ReentrantLock();
-   private Condition notEmpty = lock.newCondition();
-   private Condition notFull  = lock.newCondition();
- 
- 
-   public MyBlockingQueueForCondition(int size) {
-       this.max = size;
-       queue = new LinkedList();
-   }
- 
-   public void put(Object o) throws InterruptedException {
-       lock.lock();
-       try {
-           while (queue.size() == max) {
-               notFull.await();
-           }
-           queue.add(o);
-           notEmpty.signalAll();
-       } finally {
-           lock.unlock();
-       }
-   }
- 
-   public Object take() throws InterruptedException {
-       lock.lock();
-       try {
-           while (queue.size() == 0) {
-               notEmpty.await();
-           }
-           Object item = queue.remove();
-           notFull.signalAll();
-           return item;
-       } finally {
-           lock.unlock();
-       }
-   }
+{
+    
+    private ArrayDeque<Object> queue;
+    private int max = 16;
+    private ReentrantLock lock = new ReentrantLock();
+    private Condition notEmpty = lock.newCondition();
+    private Condition notFull  = lock.newCondition();
+    
+    public MyBlockingQueueForCondition(int size){
+        this.max = size;
+        queue = new ArrayDeque<>();
+    }
+    
+    public void put(Object o){
+        lock.lock();
+        try {
+            while (queue.size() == max){
+                notFull.await();
+            }
+            queue.offer(o);
+            notEmpty.signalAll();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+    }
+    
+    public Object take(){
+        lock.lock();
+        try {
+            while (queue.size() == 0){
+                notEmpty.await();
+            }
+            Object item = queue.poll();
+            return item;
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+        return null;
+    }
 }
 ```
 
@@ -413,83 +415,84 @@ public class MyBlockingQueueForCondition {
 
 
 ``` java
-class MyBlockingQueue {
- 
-   private int maxSize;
-   private LinkedList<Object> storage;
- 
-   public MyBlockingQueue(int size) {
-       this.maxSize = size;
-       storage = new LinkedList<>();
-   }
- 
-   public synchronized void put() throws InterruptedException {
-       while (storage.size() == maxSize) {
-           wait();
-       }
-       storage.add(new Object());
-       notifyAll();
-   }
- 
-   public synchronized void take() throws InterruptedException {
-       while (storage.size() == 0) {
-           wait();
-       }
-       System.out.println(storage.remove());
-       notifyAll();
-   }
+public class MyBlockingQueue {
+
+    private int max;
+    private ArrayDeque<Object> queue;
+
+    public MyBlockingQueue(int size){
+        this.max = size;
+        queue = new ArrayDeque<>();
+    }
+
+    public synchronized void put() throws InterruptedException {
+        while (queue.size() == max){
+            wait();
+        }
+        queue.offer(new Object());
+        notifyAll();
+    }
+
+    public synchronized void take() throws InterruptedException {
+        while (queue.size() == 0){
+            wait();
+        }
+        System.out.println(Thread.currentThread().getName() + " " + queue.poll());
+        notifyAll();
+    }
 }
 
+public class WaitStyle {
 
-public class WaitStyle {
- 
-   public static void main(String[] args) {
-       MyBlockingQueue myBlockingQueue = new MyBlockingQueue(10);
-       Producer producer = new Producer(myBlockingQueue);
-       Consumer consumer = new Consumer(myBlockingQueue);
-       new Thread(producer).start();
-       new Thread(consumer).start();
-   }
-}
- 
-class Producer implements Runnable {
- 
-   private MyBlockingQueue storage;
- 
-   public Producer(MyBlockingQueue storage) {
-       this.storage = storage;
-   }
- 
-   @Override
-   public void run() {
-       for (int i = 0; i < 100; i++) {
-           try {
-               storage.put();
-           } catch (InterruptedException e) {
-               e.printStackTrace();
-           }
-       }
-   }
-}
- 
-class Consumer implements Runnable {
- 
-   private MyBlockingQueue storage;
- 
-   public Consumer(MyBlockingQueue storage) {
-       this.storage = storage;
-   }
- 
-   @Override
-   public void run() {
-       for (int i = 0; i < 100; i++) {
-           try {
-               storage.take();
-           } catch (InterruptedException e) {
-               e.printStackTrace();
-           }
-       }
-   }
+    public static void main(String[] args) {
+
+        MyBlockingQueue queue = new MyBlockingQueue(10);
+        Producer producer = new Producer(queue);
+        Consumer consumer = new Consumer(queue);
+        new Thread(producer).start();
+        new Thread(consumer).start();
+
+    }
+
+    static class Producer implements Runnable{
+
+        private MyBlockingQueue queue;
+
+        public Producer(MyBlockingQueue queue){
+            this.queue = queue;
+        }
+
+        @Override
+        public void run() {
+            for (int i = 0; i < 100; i++){
+                try {
+                    queue.put();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    static class Consumer implements Runnable{
+
+        private MyBlockingQueue queue;
+
+        public Consumer(MyBlockingQueue queue){
+            this.queue = queue;
+        }
+
+        @Override
+        public void run() {
+            for (int i = 0; i < 100; i++){
+                try {
+                    queue.take();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 }
 ```
 
