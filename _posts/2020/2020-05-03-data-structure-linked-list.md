@@ -69,14 +69,14 @@ newNode.next = curNode.next;
 
 ## 实战题目  
 
-- [反转链表](http://yaoyichen.cn/algorithm/2020/03/24/leetcode-206.html){:target="_blank"}  
-- [链表中的环检测](http://yaoyichen.cn/algorithm/2020/03/26/leetcode-141.html){:target="_blank"}  
-- [合并两个有序链表](http://yaoyichen.cn/algorithm/2020/03/25/leetcode-21.html){:target="_blank"}  
-- [删除链表中倒数第n个节点](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-19.html){:target="_blank"}  
-- [从有序链表中删除重复节点](http://yaoyichen.cn/algorithm/2020/03/25/leetcode-83.html){:target="_blank"}  
-- [从链表中删除指定节点](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-203.html){:target="_blank"}  
-- [求链表中间节点](http://yaoyichen.cn/algorithm/2020/03/24/leetcode-876.html){:target="_blank"}  
-- [求两个链表的交点](http://yaoyichen.cn/algorithm/2020/03/26/leetcode-160.html){:target="_blank"}  
-- [Add two numbers](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-2.html){:target="_blank"}  
-- [判断是否为回文链表](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-234.html){:target="_blank"}  
+- *1、[反转链表](http://yaoyichen.cn/algorithm/2020/03/24/leetcode-206.html){:target="_blank"}  
+- 2、[链表中的环检测](http://yaoyichen.cn/algorithm/2020/03/26/leetcode-141.html){:target="_blank"}  
+- 3、[合并两个有序链表](http://yaoyichen.cn/algorithm/2020/03/25/leetcode-21.html){:target="_blank"}  
+- 4、[删除链表中倒数第n个节点](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-19.html){:target="_blank"}  
+- 5、[从有序链表中删除重复节点](http://yaoyichen.cn/algorithm/2020/03/25/leetcode-83.html){:target="_blank"}  
+- 6、[从链表中删除指定节点](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-203.html){:target="_blank"}  
+- 7、[求链表中间节点](http://yaoyichen.cn/algorithm/2020/03/24/leetcode-876.html){:target="_blank"}  
+- 8、[求两个链表的交点](http://yaoyichen.cn/algorithm/2020/03/26/leetcode-160.html){:target="_blank"}  
+- 9、[Add two numbers](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-2.html){:target="_blank"}  
+- 10、[判断是否为回文链表](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-234.html){:target="_blank"}  
 
