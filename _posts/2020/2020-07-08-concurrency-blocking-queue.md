@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 并发 - [5] 阻塞队列
+title: 并发 - [6] 阻塞队列
 category: multithread
 tags: [multithread]
 excerpt: Concurreny Blocking Queue
@@ -8,7 +8,7 @@ excerpt: Concurreny Blocking Queue
 
 以下内容总结自：   
   
-`徐隆曦 - Java 并发编程 78 讲 - [5]阻塞队列`  
+`徐隆曦 - Java 并发编程 78 讲 - [6]阻塞队列`  
 
 
 ## 阻塞队列有什么特点？  
