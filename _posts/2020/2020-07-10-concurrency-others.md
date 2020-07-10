@@ -112,7 +112,7 @@ public class DeadLockDemo {
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/deadlock_info.png)  
 
 
-###  死锁的四个必要条件：  
+###  死锁的四个必要条件  
 
 第一，独占  
 
