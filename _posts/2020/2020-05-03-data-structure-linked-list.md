@@ -81,3 +81,5 @@ newNode.next = curNode.next;
 - *10、[[234] Palindrome Linked List](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-234.html){:target="_blank"}  
 - *11、[[142] Linked List Cycle II](http://yaoyichen.cn/algorithm/2020/07/03/leetcode-142.html){:target="_blank"}  
 - *12、[[92] Reverse Linked List II](http://yaoyichen.cn/algorithm/2020/07/11/leetcode-92.html){:target="_blank"}  
+- *13、[[82] Remove Duplicates from Sorted List II](http://yaoyichen.cn/algorithm/2020/07/11/leetcode-82.html){:target="_blank"}  
+- *14、[[143] Reorder List](http://yaoyichen.cn/algorithm/2020/07/11/leetcode-143.html){:target="_blank"}  
