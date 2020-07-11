@@ -78,5 +78,5 @@ newNode.next = curNode.next;
 - 7、[[876] Middle of the Linked List](http://yaoyichen.cn/algorithm/2020/03/24/leetcode-876.html){:target="_blank"}  
 - 8、[[160] Intersection of Two Linked Lists](http://yaoyichen.cn/algorithm/2020/03/26/leetcode-160.html){:target="_blank"}  
 - 9、[[2] Add Two Numbers](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-2.html){:target="_blank"}  
-- 10、[[234] Palindrome Linked List](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-234.html){:target="_blank"}  
-- 11、[[142] Linked List Cycle II](http://yaoyichen.cn/algorithm/2020/07/03/leetcode-142.html){:target="_blank"}  
+- *10、[[234] Palindrome Linked List](http://yaoyichen.cn/algorithm/2020/05/03/leetcode-234.html){:target="_blank"}  
+- *11、[[142] Linked List Cycle II](http://yaoyichen.cn/algorithm/2020/07/03/leetcode-142.html){:target="_blank"}  
