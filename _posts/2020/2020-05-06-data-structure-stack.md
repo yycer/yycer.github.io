@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 算法与数据结构 - 栈总结
+title: 算法与数据结构 - 栈和队列总结
 category: algorithm
 tags: [algorithm]
-excerpt: Algorithm and Data structure - Stack
+excerpt: Algorithm and Data structure - Stack And Queue
 ---
 
 
@@ -30,12 +30,27 @@ excerpt: Algorithm and Data structure - Stack
 
 ## 实战题目  
 
-- 1、[有效的括号](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-20.html){:target="_blank"}  
-- 2、[最小栈](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-155.html){:target="_blank"}  
-- 3、[用栈实现队列](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-232.html){:target="_blank"}  
-- 4、[用队列实现栈](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-225.html){:target="_blank"}  
-- 5、[退格字符串比较](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-844.html){:target="_blank"}  
-- 6、[基础的计算器](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-224.html){:target="_blank"}  
+- 1、[[20] Valid Parentheses](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-20.html){:target="_blank"}  
+- 2、[[155] Min Stack](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-155.html){:target="_blank"}  
+- 3、[[232] Implement Queue using Stacks](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-232.html){:target="_blank"}  
+- 4、[[225] Implement Stack using Queues](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-225.html){:target="_blank"}  
+- 5、[[844] Backspace String Compare](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-844.html){:target="_blank"}  
+- 6、[[224] Basic Calculator](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-224.html){:target="_blank"}  
 - *7、[[402] Remove K Digits](http://yaoyichen.cn/algorithm/2020/07/04/leetcode-402.html){:target="_blank"}  
 
 
+## 单调栈  
+
+适用场景： `在数组中，求当前元素的前面或后面的第一个最小或最大值。`    
+
+- 1、[[496] Next Greater Element I](http://yaoyichen.cn/algorithm/2020/07/12/leetcode-496.html){:target="_blank"}   
+- 2、[[503] Next Greater Element II](http://yaoyichen.cn/algorithm/2020/07/12/leetcode-503.html){:target="_blank"}   
+- 3、[[739] Daily Temperatures](http://yaoyichen.cn/algorithm/2020/07/12/leetcode-739.html){:target="_blank"}   
+- *4、[[84] Largest Rectangle in Histogram](http://yaoyichen.cn/algorithm/2020/07/12/leetcode-84.html){:target="_blank"}   
+- *5、[[402] Remove K Digits](http://yaoyichen.cn/algorithm/2020/07/04/leetcode-402.html){:target="_blank"}   
+
+## 单调队列  
+
+适用场景： `滑动窗口`  
+
+- *1、[[239] Sliding Window Maximum](http://yaoyichen.cn/algorithm/2020/07/12/leetcode-239.html){:target="_blank"}   
