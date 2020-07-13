@@ -25,7 +25,7 @@ excerpt: Algorithm and Data structure - Merge Sort
 private static void mergeSort(int[] arr, int l, int r){
     if (l >= r) return;
     
-    int mid = (l + r) >>> 1;
+    int mid = l + r >>> 1;
     mergeSort(arr, l, mid);
     mergeSort(arr, mid + 1, r);
     
