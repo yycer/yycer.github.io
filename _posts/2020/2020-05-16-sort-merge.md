@@ -29,13 +29,18 @@ private static void mergeSort(int[] arr, int l, int r){
     mergeSort(arr, l, mid);
     mergeSort(arr, mid + 1, r);
     
+    // 开始归并
     int k = 0, i = l, j = mid + 1;
     while (i <= mid && j <= r){
         if (arr[i] <= arr[j]) tmp[k++] = arr[i++];
         else tmp[k++] = arr[j++];
     }
+
+    // 扫尾
     while (i <= mid) tmp[k++] = arr[i++];
     while (j <= r)   tmp[k++] = arr[j++];
+
+    // 物归原主
     for (int m = l, n = 0; m <= r; m++, n++){
         arr[m] = tmp[n];
     }
