@@ -6,6 +6,44 @@ tags: [algorithm]
 excerpt: Algorithm and Data structure - Merge Sort
 ---
 
+
+## Update at 2020_0713  
+
+总结一下归并排序的模板，`From Y总`  
+
+先梳理下思路，主要分为三步：  
+
+第一步，确定分界点，注意是中间的`索引`，而不是对应的值。  
+
+第二步，递归排序左右两边。  
+
+第三步，合二为一。  
+
+来看下实现：  
+
+``` java
+private static void mergeSort(int[] arr, int l, int r){
+    if (l >= r) return;
+    
+    int mid = (l + r) >>> 1;
+    mergeSort(arr, l, mid);
+    mergeSort(arr, mid + 1, r);
+    
+    int k = 0, i = l, j = mid + 1;
+    while (i <= mid && j <= r){
+        if (arr[i] <= arr[j]) tmp[k++] = arr[i++];
+        else tmp[k++] = arr[j++];
+    }
+    while (i <= mid) tmp[k++] = arr[i++];
+    while (j <= r)   tmp[k++] = arr[j++];
+    for (int m = l, n = 0; m <= r; m++, n++){
+        arr[m] = tmp[n];
+    }
+}
+```
+
+
+
 我们再来介绍下另一种时间复杂度为`NO(logN)`的排序算法：归并排序。  
 
 
