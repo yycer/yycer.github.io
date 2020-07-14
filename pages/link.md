@@ -13,6 +13,7 @@ permalink: /link
 - [CyC](https://cyc2018.github.io/CS-Notes/#/){:target="_blank"}  
 
 ## 算法  
+- [木易东水](https://muyids.github.io/simple-algorithm/chapter/%E4%BA%8C%E5%88%86.html){:target="_blank"}  
 - [GourdErwa](https://github.com/GourdErwa/algorithms){:target="_blank"}  
 - [wangliang](https://leetcode.wang/){:target="_blank"}  
 - [Jiang Ren](https://jiangren.work/categories/%E7%AE%97%E6%B3%95/){:target="_blank"}  
