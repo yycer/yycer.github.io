@@ -36,3 +36,5 @@ excerpt: Algorithm and Data structure - Binary Search
 - 6、[[34] Find First and Last Position of Element in Sorted Array](http://yaoyichen.cn/algorithm/2020/05/22/leetcode-34.html){:target="_blank"}  
 - 7、[[167] Two Sum II - Input array is sorted](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-167.html){:target="_blank"}  
 - 8、[[74] Search a 2D Matrix](http://yaoyichen.cn/algorithm/2020/07/02/leetcode-74.html){:target="_blank"}  
+- 9、[[33] Search in Rotated Sorted Array](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-33.html){:target="_blank"}  
+- 10、[[81] Search in Rotated Sorted Array II](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-81.html){:target="_blank"}  
