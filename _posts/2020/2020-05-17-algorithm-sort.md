@@ -24,5 +24,7 @@ excerpt: Algorithm and Data structure - Sort
 - *2、[[347] Top K Frequent Elements](http://yaoyichen.cn/algorithm/2020/05/17/leetcode-347.html){:target="_blank"}  
 - *3、[[75] Sort Colors](http://yaoyichen.cn/algorithm/2020/04/27/leetcode-75.html){:target="_blank"}  
 - **4、[[164] Maximum Gap](http://yaoyichen.cn/algorithm/2020/07/03/leetcode-164.html){:target="_blank"}  
-
+- 5、[[905] Sort Array By Parity](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-905.html){:target="_blank"}  
+- 6、[[922] Sort Array By Parity II](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-922.html){:target="_blank"}  
+- 7、[[912] Sort an Array](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-912.html){:target="_blank"}  
 
