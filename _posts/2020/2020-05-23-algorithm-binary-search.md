@@ -30,16 +30,18 @@ excerpt: Algorithm and Data structure - Binary Search
 ## 实战  
 
 - *1、[[69] Sqrt(x)](http://yaoyichen.cn/algorithm/2020/05/17/leetcode-69.html){:target="_blank"}  
+- 2、[[367] Valid Perfect Square](http://yaoyichen.cn/algorithm/2020/06/25/leetcode-367.html){:target="_blank"}  
 - 3、[[540] Single Element in a Sorted Array](http://yaoyichen.cn/algorithm/2020/05/18/leetcode-540.html){:target="_blank"}  
 - 4、[[278] First Bad Version](http://yaoyichen.cn/algorithm/2020/05/20/leetcode-278.html){:target="_blank"}  
 - 5、[[153] Find Minimum in Rotated Sorted Array](http://yaoyichen.cn/algorithm/2020/05/20/leetcode-153.html){:target="_blank"}  
-- 6、[[34] Find First and Last Position of Element in Sorted Array](http://yaoyichen.cn/algorithm/2020/05/22/leetcode-34.html){:target="_blank"}  
-- 7、[[167] Two Sum II - Input array is sorted](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-167.html){:target="_blank"}  
-- 8、[[74] Search a 2D Matrix](http://yaoyichen.cn/algorithm/2020/07/02/leetcode-74.html){:target="_blank"}  
-- 9、[[33] Search in Rotated Sorted Array](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-33.html){:target="_blank"}  
-- 10、[[81] Search in Rotated Sorted Array II](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-81.html){:target="_blank"}  
-- 11、[[154] Find Minimum in Rotated Sorted Array II](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-154.html){:target="_blank"}  
+- 6、[[154] Find Minimum in Rotated Sorted Array II](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-154.html){:target="_blank"}  
+- 7、[[34] Find First and Last Position of Element in Sorted Array](http://yaoyichen.cn/algorithm/2020/05/22/leetcode-34.html){:target="_blank"}  
+- 8、[[167] Two Sum II - Input array is sorted](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-167.html){:target="_blank"}  
+- 9、[[74] Search a 2D Matrix](http://yaoyichen.cn/algorithm/2020/07/02/leetcode-74.html){:target="_blank"}  
+- 10、[[33] Search in Rotated Sorted Array](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-33.html){:target="_blank"}  
+- 11、[[81] Search in Rotated Sorted Array II](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-81.html){:target="_blank"}  
 - 12、[[162] Find Peak Element](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-162.html){:target="_blank"}  
-- 13、[[35] Search Insert Position](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-35.html){:target="_blank"}  
-- 14、[[852] Peak Index in a Mountain Array](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-852.html){:target="_blank"}  
-- 15、[[367] Valid Perfect Square](http://yaoyichen.cn/algorithm/2020/06/25/leetcode-367.html){:target="_blank"}  
+- 13、[[852] Peak Index in a Mountain Array](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-852.html){:target="_blank"}  
+- 14、[[35] Search Insert Position](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-35.html){:target="_blank"}  
+
+
