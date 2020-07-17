@@ -22,7 +22,7 @@ excerpt: Algorithm and Data structure - Two Pointer
 
 ## 实战  
 
-- 1、[[633] Sum of Square Numbers](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-633.html){:target="_blank"}  
+- *1、[[633] Sum of Square Numbers](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-633.html){:target="_blank"}  
 - 2、[[167] Two Sum II - Input array is sorted](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-167.html){:target="_blank"}  
 - 3、[[141] Linked List Cycle](http://yaoyichen.cn/algorithm/2020/03/26/leetcode-141.html){:target="_blank"}  
 - 4、[[88] Merge Sorted Array](http://yaoyichen.cn/algorithm/2020/05/24/leetcode-88.html){:target="_blank"}  
