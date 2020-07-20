@@ -7,17 +7,12 @@ excerpt: Algorithm and Data structure - Two Pointer
 ---
 
 
-本文来总结下双指针思想。  
+双指针思想的核心在于将`O(n^2)`的时间复杂度降为`O(n)`。  
 
+一般情况下使用`i`指针从头到尾遍历整个数组，  
 
-它的核心思想是什么？  
+然后寻找某种性质，从而减少`j`指针的执行次数。  
 
-> 设置头尾两个指针，不断往中间靠拢，直至达到目标或者头尾相遇。  
-
-
-它有哪些应用场景？  
-
-> 判断回文字符串、判断数组中是否存在两个元素的值等于目标值。  
   
 
 ## 实战  
@@ -33,5 +28,5 @@ excerpt: Algorithm and Data structure - Two Pointer
 - 9、[[16] 3Sum Closest](http://yaoyichen.cn/algorithm/2020/07/20/leetcode-16.html){:target="_blank"}  
 - *10、[[18] 4Sum](http://yaoyichen.cn/algorithm/2020/06/29/leetcode-18.html){:target="_blank"}  
 - 11、[[240] Search a 2D Matrix II](http://yaoyichen.cn/algorithm/2020/07/02/leetcode-240.html){:target="_blank"}  
-- 12、[[3] Longest Substring Without Repeating Characters](http://yaoyichen.cn/algorithm/2020/03/10/leetcode-3.html){:target="_blank"}  
+- *12、[[3] Longest Substring Without Repeating Characters](http://yaoyichen.cn/algorithm/2020/03/10/leetcode-3.html){:target="_blank"}  
 - 13、[[26] Remove Duplicates from Sorted Array](http://yaoyichen.cn/algorithm/2020/07/17/leetcode-26.html){:target="_blank"}  
