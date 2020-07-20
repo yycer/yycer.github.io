@@ -26,7 +26,7 @@ excerpt: Algorithm and Data structure - Two Pointer
 - 2、[[167] Two Sum II - Input array is sorted](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-167.html){:target="_blank"}  
 - 3、[[141] Linked List Cycle](http://yaoyichen.cn/algorithm/2020/03/26/leetcode-141.html){:target="_blank"}  
 - 4、[[88] Merge Sorted Array](http://yaoyichen.cn/algorithm/2020/05/24/leetcode-88.html){:target="_blank"}  
-- 5、[[680] Valid Palindrome II](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-680.html){:target="_blank"}  
+- *5、[[680] Valid Palindrome II](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-680.html){:target="_blank"}  
 - 6、[[345] Reverse Vowels of a String](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-345.html){:target="_blank"}  
 - 7、[[11] Container With Most Water](http://yaoyichen.cn/algorithm/2020/03/09/leetcode-11.html){:target="_blank"}  
 - *8、[[15] 3Sum](http://yaoyichen.cn/algorithm/2020/06/29/leetcode-15.html){:target="_blank"}  
