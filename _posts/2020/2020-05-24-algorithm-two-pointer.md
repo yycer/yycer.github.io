@@ -30,7 +30,8 @@ excerpt: Algorithm and Data structure - Two Pointer
 - 6、[[345] Reverse Vowels of a String](http://yaoyichen.cn/algorithm/2020/05/23/leetcode-345.html){:target="_blank"}  
 - 7、[[11] Container With Most Water](http://yaoyichen.cn/algorithm/2020/03/09/leetcode-11.html){:target="_blank"}  
 - *8、[[15] 3Sum](http://yaoyichen.cn/algorithm/2020/06/29/leetcode-15.html){:target="_blank"}  
-- *9、[[18] 4Sum](http://yaoyichen.cn/algorithm/2020/06/29/leetcode-18.html){:target="_blank"}  
-- 10、[[240] Search a 2D Matrix II](http://yaoyichen.cn/algorithm/2020/07/02/leetcode-240.html){:target="_blank"}  
-- 11、[[3] Longest Substring Without Repeating Characters](http://yaoyichen.cn/algorithm/2020/03/10/leetcode-3.html){:target="_blank"}  
-- 12、[[26] Remove Duplicates from Sorted Array](http://yaoyichen.cn/algorithm/2020/07/17/leetcode-26.html){:target="_blank"}  
+- 9、[[16] 3Sum Closest](http://yaoyichen.cn/algorithm/2020/07/20/leetcode-16.html){:target="_blank"}  
+- *10、[[18] 4Sum](http://yaoyichen.cn/algorithm/2020/06/29/leetcode-18.html){:target="_blank"}  
+- 11、[[240] Search a 2D Matrix II](http://yaoyichen.cn/algorithm/2020/07/02/leetcode-240.html){:target="_blank"}  
+- 12、[[3] Longest Substring Without Repeating Characters](http://yaoyichen.cn/algorithm/2020/03/10/leetcode-3.html){:target="_blank"}  
+- 13、[[26] Remove Duplicates from Sorted Array](http://yaoyichen.cn/algorithm/2020/07/17/leetcode-26.html){:target="_blank"}  
