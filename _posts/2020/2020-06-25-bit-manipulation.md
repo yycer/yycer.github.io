@@ -34,7 +34,7 @@ n >>>= 1;
 ## 幂系列    
 
 - 1、[[231] Power of Two](http://yaoyichen.cn/algorithm/2020/03/21/leetcode-231.html){:target="_blank"}  
-- 2、[[326] Power of Three](http://yaoyichen.cn/algorithm/2020/06/24/leetcode-326.html){:target="_blank"}  
+- *2、[[326] Power of Three](http://yaoyichen.cn/algorithm/2020/06/24/leetcode-326.html){:target="_blank"}  
 - 3、[[342] Power of Four](http://yaoyichen.cn/algorithm/2020/03/21/leetcode-342.html){:target="_blank"}  
 
 
