@@ -46,4 +46,4 @@ n >>>= 1;
 - **4、[[693] Binary Number with Alternating Bits](http://yaoyichen.cn/algorithm/2020/03/21/leetcode-693.html){:target="_blank"}  
 - 5、[[476] Number Complement](http://yaoyichen.cn/algorithm/2020/03/19/leetcode-476.html){:target="_blank"}  
 - *6、[[371] Sum of Two Integers](http://yaoyichen.cn/algorithm/2020/06/24/leetcode-371.html){:target="_blank"}  
-- 7、[[338] Counting Bits](http://yaoyichen.cn/algorithm/2020/03/21/leetcode-338.html){:target="_blank"}  
+- *7、[[338] Counting Bits](http://yaoyichen.cn/algorithm/2020/03/21/leetcode-338.html){:target="_blank"}  
