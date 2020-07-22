@@ -75,6 +75,30 @@ private static int gcdV2(int a, int b) {
 }
 ```
 
+### Update at 2020_0722  
+
+循环法：  
+
+假设`a`为较大值，`b`为较小值。  
+
+`while`循环结束的条件为`b != 0`，  
+
+在循环中，先计算`a`与`b`取余的结果，然后`a = b; b = t`  
+
+因为`b`肯定比`t`大。  
+
+``` java
+a = Math.max(a, b);
+b = Math.min(a, b);
+while (b != 0){
+    int t = a % b;
+    a = b;
+    b = t;
+}
+```
+
+
+
 这种解法有什么问题？  
 
 对于两个大值取余的效率太低。  
@@ -82,6 +106,7 @@ private static int gcdV2(int a, int b) {
 
 
 ## 解法3 - 更相减损法  
+
 
 这种解法解决了两个大数取余的效率问题。  
 
@@ -108,6 +133,28 @@ private static int gcdV3(int a, int b) {
 但是，这种解法的有什么缺点？  
 
 如果两个数相差很大，则需要大量递归运算。  
+
+
+
+### Update at 2020_0722  
+
+重新梳理下思路：  
+
+将`a`设为较大值，`b`为较小值。  
+
+然后，`while`循环结束的条件就是两者相等，  
+
+在每次循环中，先计算两者差值`t`，然后`a = Max(b, t), b = Min(b,t)`  
+
+``` java
+a = Math.max(a, b);
+b = Math.min(a, b);
+while (a != b){
+    int t = a - b;
+    a = Math.max(t, b);
+    b = Math.min(t, b);
+}
+```
 
 
 ## 解法4 - 更相减损法 & 移位  
