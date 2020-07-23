@@ -51,3 +51,4 @@ excerpt: Algorithm and Data structure - BackTracking
 - 5、[[257] Binary Tree Paths](http://yaoyichen.cn/algorithm/2020/06/16/leetcode-257.html){:target="_blank"}  
 - 6、[[37] Sudoku Solver](http://yaoyichen.cn/algorithm/2020/06/22/leetcode-37.html){:target="_blank"}  
 - 7、[[51] N-Queens](http://yaoyichen.cn/algorithm/2020/06/22/leetcode-51.html){:target="_blank"}  
+- 8、[[52] N-Queens II](http://yaoyichen.cn/algorithm/2020/07/23/leetcode-52.html){:target="_blank"}  
