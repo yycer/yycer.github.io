@@ -42,7 +42,7 @@ for (char c: s.toCharArray()){
 
 ## 哈希表    
 
-- *1、[[1] Two Sum](http://yaoyichen.cn/algorithm/2020/04/19/leetcode-1.html){:target="_blank"}  
+- 1、[[1] Two Sum](http://yaoyichen.cn/algorithm/2020/04/19/leetcode-1.html){:target="_blank"}  
 - 2、[[217] Contains Duplicate](http://yaoyichen.cn/algorithm/2020/02/15/leetcode-217.html){:target="_blank"}  
 - *3、[[594] Longest Harmonious Subsequence](http://yaoyichen.cn/algorithm/2020/03/16/leetcode-594.html){:target="_blank"}  
 - *4、[[128] Longest Consecutive Sequence](http://yaoyichen.cn/algorithm/2020/04/19/leetcode-128.html){:target="_blank"}  
