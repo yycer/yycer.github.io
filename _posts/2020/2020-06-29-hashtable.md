@@ -58,7 +58,7 @@ for (char c: s.toCharArray()){
 - 14、[[387] First Unique Character in a String](http://yaoyichen.cn/algorithm/2020/06/28/leetcode-387.html){:target="_blank"}  
 - 15、[[350] Intersection of Two Arrays II](http://yaoyichen.cn/algorithm/2020/06/28/leetcode-350.html){:target="_blank"}  
 - 16、[[599] Minimum Index Sum of Two Lists](http://yaoyichen.cn/algorithm/2020/03/15/leetcode-599.html){:target="_blank"}  
-- *17、[[202] Happy Number](http://yaoyichen.cn/algorithm/2020/03/15/leetcode-202.html){:target="_blank"}  
+- 17、[[202] Happy Number](http://yaoyichen.cn/algorithm/2020/03/15/leetcode-202.html){:target="_blank"}  
 - 18、[[409] Longest Palindrome](http://yaoyichen.cn/algorithm/2020/03/15/leetcode-409.html){:target="_blank"}  
 - *19、[[645] Set Mismatch](http://yaoyichen.cn/algorithm/2020/03/16/leetcode-645.html){:target="_blank"}  
 - *20、[[204] Count Primes](http://yaoyichen.cn/algorithm/2020/03/17/leetcode-204.html){:target="_blank"}  
