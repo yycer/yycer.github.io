@@ -51,7 +51,7 @@ for (char c: s.toCharArray()){
 - 7、[[1207] Unique Number of Occurrences](http://yaoyichen.cn/algorithm/2020/03/12/leetcode-1207.html){:target="_blank"}  
 - 8、[[1002] Find Common Characters](http://yaoyichen.cn/algorithm/2020/03/13/leetcode-1002.html){:target="_blank"}  
 - 9、[[1160] Find Words That Can Be Formed by Characters](http://yaoyichen.cn/algorithm/2020/03/12/leetcode-1160.html){:target="_blank"}  
-- *10、[[463] Island Perimeter](http://yaoyichen.cn/algorithm/2020/03/13/leetcode-463.html){:target="_blank"}  
+- 10、[[463] Island Perimeter](http://yaoyichen.cn/algorithm/2020/03/13/leetcode-463.html){:target="_blank"}  
 - 11、[[884] Uncommon Words from Two Sentences](http://yaoyichen.cn/algorithm/2020/03/14/leetcode-884.html){:target="_blank"}  
 - 12、[[1189] Maximum Number of Balloons](http://yaoyichen.cn/algorithm/2020/03/14/leetcode-1189.html){:target="_blank"}  
 - 13、[[389] Find the Difference](http://yaoyichen.cn/algorithm/2020/03/13/leetcode-389.html){:target="_blank"}  
