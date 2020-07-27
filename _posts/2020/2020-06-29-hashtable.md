@@ -63,7 +63,7 @@ for (char c: s.toCharArray()){
 - 19、[[645] Set Mismatch](http://yaoyichen.cn/algorithm/2020/03/16/leetcode-645.html){:target="_blank"}  
 - *20、[[204] Count Primes](http://yaoyichen.cn/algorithm/2020/03/17/leetcode-204.html){:target="_blank"}  
 - *21、[[36] Valid Sudoku](http://yaoyichen.cn/algorithm/2020/05/24/leetcode-36.html){:target="_blank"}  
-- *22、[[3] Longest Substring Without Repeating Characters](http://yaoyichen.cn/algorithm/2020/03/10/leetcode-3.html){:target="_blank"}  
+- 22、[[3] Longest Substring Without Repeating Characters](http://yaoyichen.cn/algorithm/2020/03/10/leetcode-3.html){:target="_blank"}  
 
 
 
