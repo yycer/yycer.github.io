@@ -69,9 +69,9 @@ for (char c: s.toCharArray()){
 
 
 ## 同形异构 
-- *1、[[242] Valid Anagram](http://yaoyichen.cn/algorithm/2020/03/14/leetcode-242.html){:target="_blank"}  
-- *2、[[205] Isomorphic Strings](http://yaoyichen.cn/algorithm/2020/04/21/leetcode-205.html){:target="_blank"}  
-- *3、[[290] Word Pattern](http://yaoyichen.cn/algorithm/2020/06/29/leetcode-290.html){:target="_blank"}  
+- 1、[[242] Valid Anagram](http://yaoyichen.cn/algorithm/2020/03/14/leetcode-242.html){:target="_blank"}  
+- 2、[[205] Isomorphic Strings](http://yaoyichen.cn/algorithm/2020/04/21/leetcode-205.html){:target="_blank"}  
+- 3、[[290] Word Pattern](http://yaoyichen.cn/algorithm/2020/06/29/leetcode-290.html){:target="_blank"}  
 
 
 
