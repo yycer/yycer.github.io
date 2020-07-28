@@ -35,7 +35,7 @@ excerpt: Algorithm and Data structure - Stack And Queue
 - 3、[[232] Implement Queue using Stacks](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-232.html){:target="_blank"}  
 - 4、[[225] Implement Stack using Queues](http://yaoyichen.cn/algorithm/2020/05/04/leetcode-225.html){:target="_blank"}  
 - 5、[[844] Backspace String Compare](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-844.html){:target="_blank"}  
-- 6、[[224] Basic Calculator](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-224.html){:target="_blank"}  
+- *6、[[224] Basic Calculator](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-224.html){:target="_blank"}  
 - *7、[[402] Remove K Digits](http://yaoyichen.cn/algorithm/2020/07/04/leetcode-402.html){:target="_blank"}  
 
 
