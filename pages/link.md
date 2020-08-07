@@ -38,6 +38,7 @@ permalink: /link
 - [嘟嘟](http://tengj.top/){:target="_blank"}  
 - [狗皮膏药](https://plushunter.github.io/){:target="_blank"}  
 - [武培轩](https://www.cnblogs.com/wupeixuan/){:target="_blank"}  
+- [arianx](https://arianx.me/archives/){:target="_blank"}  
 
 ## 推荐网站  
 
