@@ -39,6 +39,7 @@ permalink: /link
 - [狗皮膏药](https://plushunter.github.io/){:target="_blank"}  
 - [武培轩](https://www.cnblogs.com/wupeixuan/){:target="_blank"}  
 - [arianx](https://arianx.me/archives/){:target="_blank"}  
+- [bestzuo](https://bestzuo.cn/){:target="_blank"}  
 
 ## 推荐网站  
 
