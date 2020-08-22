@@ -76,4 +76,4 @@ excerpt: Algorithm and Data structure - All
 - +3、[链表总结](http://yaoyichen.cn/algorithm/2020/05/03/data-structure-linked-list.html){:target="_blank"}  
 - +4、[哈希表总结](http://yaoyichen.cn/algorithm/2020/06/29/hashtable.html){:target="_blank"}  
 - +5、[字符串总结](http://yaoyichen.cn/algorithm/2020/06/27/string.html){:target="_blank"}  
-- 6、[二叉树总结](http://yaoyichen.cn/algorithm/2020/06/18/tree.html){:target="_blank"}  
+- +6、[二叉树总结](http://yaoyichen.cn/algorithm/2020/06/18/tree.html){:target="_blank"}  
