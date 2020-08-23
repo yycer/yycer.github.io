@@ -37,6 +37,7 @@ excerpt: Algorithm and Data structure - Stack And Queue
 - 5、[[844] Backspace String Compare](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-844.html){:target="_blank"}  
 - *6、[[224] Basic Calculator](http://yaoyichen.cn/algorithm/2020/05/05/leetcode-224.html){:target="_blank"}  
 - *7、[[402] Remove K Digits](http://yaoyichen.cn/algorithm/2020/07/04/leetcode-402.html){:target="_blank"}  
+- *8、[[394] Decode String](http://yaoyichen.cn/algorithm/2020/06/11/leetcode-394.html){:target="_blank"}  
 
 
 ## 单调栈  
