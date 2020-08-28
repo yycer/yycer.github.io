@@ -109,5 +109,6 @@ int bsearch_2(int l, int r)
 - 12、[[852] Peak Index in a Mountain Array](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-852.html){:target="_blank"}  
 - 13、[[35] Search Insert Position](http://yaoyichen.cn/algorithm/2020/07/15/leetcode-35.html){:target="_blank"}  
 - 14、[[668] Kth Smallest Number in Multiplication Table](http://yaoyichen.cn/algorithm/2020/08/28/leetcode-668.html){:target="_blank"}  
+- 15、[[378] Kth Smallest Element in a Sorted Matrix](http://yaoyichen.cn/algorithm/2020/08/28/leetcode-378.html){:target="_blank"}  
 
 
