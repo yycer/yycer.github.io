@@ -61,7 +61,7 @@ excerpt: Algorithm and Data structure - All
 - +3、[双指针总结](http://yaoyichen.cn/algorithm/2020/05/24/algorithm-two-pointer.html){:target="_blank"}  
 - +4、[位运算总结](http://yaoyichen.cn/algorithm/2020/06/25/bit-manipulation.html){:target="_blank"}  
 - 5、[贪心算法总结](http://yaoyichen.cn/algorithm/2020/06/24/greedy.html){:target="_blank"}  
-- 6、[回溯总结](http://yaoyichen.cn/algorithm/2020/06/22/backtracking.html){:target="_blank"}  
+- +6、[回溯总结](http://yaoyichen.cn/algorithm/2020/06/22/backtracking.html){:target="_blank"}  
 - 7、[动态规划总结](http://yaoyichen.cn/algorithm/2020/06/10/dynamic-programming.html){:target="_blank"}  
 - +8、[搜索总结](http://yaoyichen.cn/algorithm/2020/06/15/search.html){:target="_blank"}  
 - +9、[数学思维总结](http://yaoyichen.cn/algorithm/2020/06/26/math.html){:target="_blank"}  
