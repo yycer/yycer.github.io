@@ -10,10 +10,10 @@ permalink: /link
 ## 首推  
 
 - [阮一峰](http://www.ruanyifeng.com/blog/){:target="_blank"}  
-- [CyC](https://cyc2018.github.io/CS-Notes/#/){:target="_blank"}  
+- [mkyong](https://mkyong.com/){:target="_blank"}  
+
 
 ## 算法  
-- [木易东水](https://muyids.github.io/simple-algorithm/chapter/%E4%BA%8C%E5%88%86.html){:target="_blank"}  
 - [GourdErwa](https://github.com/GourdErwa/algorithms){:target="_blank"}  
 - [wangliang](https://leetcode.wang/){:target="_blank"}  
 - [Jiang Ren](https://jiangren.work/categories/%E7%AE%97%E6%B3%95/){:target="_blank"}  
@@ -25,6 +25,7 @@ permalink: /link
 
 ## 推荐博主  
 
+- [CyC](https://cyc2018.github.io/CS-Notes/#/){:target="_blank"}  
 - [纯洁的微笑](http://www.ityouknow.com/){:target="_blank"}  
 - [五月的仓颉](https://www.cnblogs.com/xrq730/){:target="_blank"} - `集合、NIO、设计模式`
 - [Javadoop](https://www.javadoop.com/){:target="_blank"}  
