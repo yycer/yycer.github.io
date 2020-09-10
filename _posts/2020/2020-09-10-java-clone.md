@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Java - clone  
+title: Java - 对象复制  
 category: java-basic
 tags: [java]
-excerpt: Java clone  
+excerpt: Java Clone Object  
 ---
 
 本文梳理一下`Java`中的对象复制。   
