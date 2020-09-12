@@ -6,6 +6,12 @@ tags: [spring, java]
 excerpt: Java8 New Date And Time 
 ---
 
+## Update at 2020_0912  
+
+重新梳理了一下`Java`中的时间，请参考：  
+
+[Java - 时间类的进化历程](http://yaoyichen.cn/java-basic/2020/09/12/java-time.html){:target="_blank"}  
+
 ## `2020_0306更新理解`  
 
 这次主要补充下`Date`与`LocalDate/LocalDateTime`的区别：  
