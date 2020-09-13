@@ -62,7 +62,7 @@ sum of range[2, 3]
 - 5、[[930] Binary Subarrays With Sum](http://yaoyichen.cn/algorithm/2020/07/01/leetcode-930.html){:target="_blank"}  
 - 6、[[974] Subarray Sums Divisible by K](http://yaoyichen.cn/algorithm/2020/06/30/leetcode-974.html){:target="_blank"}  
 - 7、[[303] Range Sum Query - Immutable](http://yaoyichen.cn/algorithm/2020/06/30/leetcode-303.html){:target="_blank"}  
-- 8、[[307] Range Sum Query - Mutable](http://yaoyichen.cn/algorithm/2020/06/30/leetcode-307.html){:target="_blank"}  
+- 8、[[307] Range Sum Query - Mutable -> Next 提高课 树状数组、线段树](http://yaoyichen.cn/algorithm/2020/06/30/leetcode-307.html){:target="_blank"}  
 - *9、[[523] Continuous Subarray Sum](http://yaoyichen.cn/algorithm/2020/06/30/leetcode-523.html){:target="_blank"}  
 - *10、[[437] Path Sum III](http://yaoyichen.cn/algorithm/2020/04/06/leetcode-437.html){:target="_blank"}  
 - 11、[[724] Find Pivot Index](http://yaoyichen.cn/algorithm/2020/07/01/leetcode-724.html){:target="_blank"}  
