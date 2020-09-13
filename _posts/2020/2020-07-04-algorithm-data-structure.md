@@ -65,7 +65,7 @@ excerpt: Algorithm and Data structure - All
 - 7、[动态规划总结](http://yaoyichen.cn/algorithm/2020/06/10/dynamic-programming.html){:target="_blank"}  
 - +8、[搜索总结](http://yaoyichen.cn/algorithm/2020/06/15/search.html){:target="_blank"}  
 - +9、[数学思维总结](http://yaoyichen.cn/algorithm/2020/06/26/math.html){:target="_blank"}  
-- 10、[前缀和总结](http://yaoyichen.cn/algorithm/2020/07/02/prefix-sum.html){:target="_blank"}  
+- +10、[前缀和总结](http://yaoyichen.cn/algorithm/2020/07/02/prefix-sum.html){:target="_blank"}  
 
 
 
