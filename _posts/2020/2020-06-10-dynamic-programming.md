@@ -108,3 +108,8 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - 1、[[416] Partition Equal Subset Sum](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-416.html){:target="_blank"}  
 - 2、[[474] Ones and Zeroes](http://yaoyichen.cn/algorithm/2020/06/06/leetcode-474.html){:target="_blank"}  
 - 3、[[494] Target Sum](http://yaoyichen.cn/algorithm/2020/06/06/leetcode-494.html){:target="_blank"}  
+- 4、[[1049] Last Stone Weight II](http://yaoyichen.cn/algorithm/2020/09/14/leetcode-1049.html){:target="_blank"}  
+
+
+
+
