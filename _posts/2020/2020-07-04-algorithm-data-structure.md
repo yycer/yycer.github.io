@@ -56,25 +56,25 @@ excerpt: Algorithm and Data structure - All
 
 ## 算法        
 
-- +1、[排序总结](http://yaoyichen.cn/algorithm/2020/05/17/algorithm-sort.html){:target="_blank"}  
-- +2、[二分查找总结](http://yaoyichen.cn/algorithm/2020/05/23/algorithm-binary-search.html){:target="_blank"}  
-- +3、[双指针总结](http://yaoyichen.cn/algorithm/2020/05/24/algorithm-two-pointer.html){:target="_blank"}  
-- +4、[位运算总结](http://yaoyichen.cn/algorithm/2020/06/25/bit-manipulation.html){:target="_blank"}  
-- 5、[贪心算法总结](http://yaoyichen.cn/algorithm/2020/06/24/greedy.html){:target="_blank"}  
-- +6、[回溯总结](http://yaoyichen.cn/algorithm/2020/06/22/backtracking.html){:target="_blank"}  
-- 7、[动态规划总结](http://yaoyichen.cn/algorithm/2020/06/10/dynamic-programming.html){:target="_blank"}  
-- +8、[搜索总结](http://yaoyichen.cn/algorithm/2020/06/15/search.html){:target="_blank"}  
-- +9、[数学思维总结](http://yaoyichen.cn/algorithm/2020/06/26/math.html){:target="_blank"}  
-- +10、[前缀和总结](http://yaoyichen.cn/algorithm/2020/07/02/prefix-sum.html){:target="_blank"}  
+- +1、[排序](http://yaoyichen.cn/algorithm/2020/05/17/algorithm-sort.html){:target="_blank"}  
+- +2、[二分查找](http://yaoyichen.cn/algorithm/2020/05/23/algorithm-binary-search.html){:target="_blank"}  
+- +3、[双指针](http://yaoyichen.cn/algorithm/2020/05/24/algorithm-two-pointer.html){:target="_blank"}  
+- +4、[位运算](http://yaoyichen.cn/algorithm/2020/06/25/bit-manipulation.html){:target="_blank"}  
+- 5、[贪心算法](http://yaoyichen.cn/algorithm/2020/06/24/greedy.html){:target="_blank"}  
+- +6、[回溯](http://yaoyichen.cn/algorithm/2020/06/22/backtracking.html){:target="_blank"}  
+- 7、[动态规划](http://yaoyichen.cn/algorithm/2020/06/10/dynamic-programming.html){:target="_blank"}  
+- +8、[搜索](http://yaoyichen.cn/algorithm/2020/06/15/search.html){:target="_blank"}  
+- +9、[数学思维](http://yaoyichen.cn/algorithm/2020/06/26/math.html){:target="_blank"}  
+- +10、[前缀和](http://yaoyichen.cn/algorithm/2020/07/02/prefix-sum.html){:target="_blank"}  
 
 
 
 ## 数据结构    
 
-- +1、[数组总结](http://yaoyichen.cn/algorithm/2020/07/02/array.html){:target="_blank"}  
-- +2、[栈总结](http://yaoyichen.cn/algorithm/2020/05/06/data-structure-stack.html){:target="_blank"}  
-- +3、[链表总结](http://yaoyichen.cn/algorithm/2020/05/03/data-structure-linked-list.html){:target="_blank"}  
-- +4、[哈希表总结](http://yaoyichen.cn/algorithm/2020/06/29/hashtable.html){:target="_blank"}  
-- +5、[字符串总结](http://yaoyichen.cn/algorithm/2020/06/27/string.html){:target="_blank"}  
-- +6、[二叉树总结](http://yaoyichen.cn/algorithm/2020/06/18/tree.html){:target="_blank"}  
-- +7、[堆总结](http://yaoyichen.cn/algorithm/2020/09/14/heap.html){:target="_blank"}  
+- +1、[数组](http://yaoyichen.cn/algorithm/2020/07/02/array.html){:target="_blank"}  
+- +2、[栈](http://yaoyichen.cn/algorithm/2020/05/06/data-structure-stack.html){:target="_blank"}  
+- +3、[链表](http://yaoyichen.cn/algorithm/2020/05/03/data-structure-linked-list.html){:target="_blank"}  
+- +4、[哈希表](http://yaoyichen.cn/algorithm/2020/06/29/hashtable.html){:target="_blank"}  
+- +5、[字符串](http://yaoyichen.cn/algorithm/2020/06/27/string.html){:target="_blank"}  
+- +6、[二叉树](http://yaoyichen.cn/algorithm/2020/06/18/tree.html){:target="_blank"}  
+- +7、[堆](http://yaoyichen.cn/algorithm/2020/09/14/heap.html){:target="_blank"}  
