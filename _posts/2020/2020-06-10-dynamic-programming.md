@@ -80,9 +80,7 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - 12、[[376] Wiggle Subsequence](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-376.html){:target="_blank"}  
 - 13、[[1143] Longest Common Subsequence](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-1143.html){:target="_blank"}  
 - *14、[[416] Partition Equal Subset Sum](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-416.html){:target="_blank"}
-- *15、[[494] Target Sum](http://yaoyichen.cn/algorithm/2020/06/06/leetcode-494.html){:target="_blank"}  
 - 16、[[516] Longest Palindromic Subsequence](http://yaoyichen.cn/algorithm/2020/06/06/leetcode-516.html){:target="_blank"}  
-- 17、[[474] Ones and Zeroes](http://yaoyichen.cn/algorithm/2020/06/06/leetcode-474.html){:target="_blank"}  
 - 18、[[322] Coin Change](http://yaoyichen.cn/algorithm/2020/06/07/leetcode-322.html){:target="_blank"}    
 - 19、[[518] Coin Change 2](http://yaoyichen.cn/algorithm/2020/06/07/leetcode-518.html){:target="_blank"}    
 - 20、[[139] Word Break](http://yaoyichen.cn/algorithm/2020/06/07/leetcode-139.html){:target="_blank"}  
@@ -103,3 +101,10 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - *35、[[647] Palindromic Substrings](http://yaoyichen.cn/algorithm/2020/06/26/leetcode-647.html){:target="_blank"}   
 - 36、[[5] Longest Palindromic Substring](http://yaoyichen.cn/algorithm/2020/06/26/leetcode-5.html){:target="_blank"}   
 - 37、[小灰 - 金矿问题](http://yaoyichen.cn/algorithm/2020/07/03/gold-mining.html){:target="_blank"}   
+
+
+## `0-1 Knapsack`  
+
+- 1、[[416] Partition Equal Subset Sum](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-416.html){:target="_blank"}  
+- 2、[[474] Ones and Zeroes](http://yaoyichen.cn/algorithm/2020/06/06/leetcode-474.html){:target="_blank"}  
+- 3、[[494] Target Sum](http://yaoyichen.cn/algorithm/2020/06/06/leetcode-494.html){:target="_blank"}  
