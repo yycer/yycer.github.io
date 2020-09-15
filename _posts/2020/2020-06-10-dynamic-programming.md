@@ -74,15 +74,12 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - 6、[[64] Minimum Path Sum](http://yaoyichen.cn/algorithm/2020/05/30/leetcode-64.html){:target="_blank"}  
 - 7、[[62] Unique Paths](http://yaoyichen.cn/algorithm/2020/02/24/leetcode-62.html){:target="_blank"}  
 - 8、[[413] Arithmetic Slices](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-413.html){:target="_blank"}  
-- *9、[[343] Integer Break](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-343.html){:target="_blank"}  
 - 10、[[279] Perfect Squares](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-279.html){:target="_blank"}
 - 11、[[300] Longest Increasing Subsequence](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-300.html){:target="_blank"}  
 - 12、[[376] Wiggle Subsequence](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-376.html){:target="_blank"}  
 - 13、[[1143] Longest Common Subsequence](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-1143.html){:target="_blank"}  
 - *14、[[416] Partition Equal Subset Sum](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-416.html){:target="_blank"}
-- 16、[[516] Longest Palindromic Subsequence](http://yaoyichen.cn/algorithm/2020/06/06/leetcode-516.html){:target="_blank"}  
-- 18、[[322] Coin Change](http://yaoyichen.cn/algorithm/2020/06/07/leetcode-322.html){:target="_blank"}    
-- 19、[[518] Coin Change 2](http://yaoyichen.cn/algorithm/2020/06/07/leetcode-518.html){:target="_blank"}    
+- 16、[[516] Longest Palindromic Subsequence](http://yaoyichen.cn/algorithm/2020/06/06/leetcode-516.html){:target="_blank"}    
 - 20、[[139] Word Break](http://yaoyichen.cn/algorithm/2020/06/07/leetcode-139.html){:target="_blank"}  
 - *21、[[377] Combination Sum IV](http://yaoyichen.cn/algorithm/2020/06/07/leetcode-377.html){:target="_blank"}  
 - 22、[[121] Best Time to Buy and Sell Stock](http://yaoyichen.cn/algorithm/2020/06/08/leetcode-121.html){:target="_blank"}    
@@ -111,5 +108,10 @@ excerpt: Algorithm and Data structure - Dynamic Programming
 - 4、[[1049] Last Stone Weight II](http://yaoyichen.cn/algorithm/2020/09/14/leetcode-1049.html){:target="_blank"}  
 
 
+## `Unbound Knapsack`  
+
+- 1、[[322] Coin Change](http://yaoyichen.cn/algorithm/2020/06/07/leetcode-322.html){:target="_blank"}   
+- 2、[[518] Coin Change 2](http://yaoyichen.cn/algorithm/2020/06/07/leetcode-518.html){:target="_blank"}   
+- 3、[[343] Integer Break](http://yaoyichen.cn/algorithm/2020/06/05/leetcode-343.html){:target="_blank"}  
 
 
