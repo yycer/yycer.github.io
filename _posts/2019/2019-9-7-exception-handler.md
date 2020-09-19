@@ -5,6 +5,170 @@ category: java-basic
 tags: [exception]
 excerpt: Java异常处理机制
 ---
+
+## Update at 2020_0919  
+
+补充两点：`try...catch...finally`语句块的执行流程，并梳理常见异常。  
+
+### Flow Control  
+
+先来看下示意图：  
+
+![](https://yyc-images.oss-cn-beijing.aliyuncs.com/java_exception_flow_control.png)  
+
+首先，我们需要明确这三个语句块的职责分别是什么？  
+
+`try`语句块中包含可能会出现异常的代码，注意粒度切分得尽可能要细。  
+
+`catch`的作用是处理异常，若当前场景下无法处理，则可以记录日志，并向上抛出。  
+
+`finally`语句块一般用于释放某些连接资源。  
+
+来看个例子：  
+
+
+``` java
+public class ExceptionTest {
+
+    public static void main(String[] args) {
+
+        try {
+            System.out.println("Start try block.");
+            int a = 10 / 0;
+            System.out.println("End try block.");
+        } catch (ArithmeticException e) {
+            System.out.println("Start catch block");
+            e.printStackTrace();
+        } finally {
+            System.out.println("Start finally block");
+        }
+    }
+}
+
+// Start try block.
+// Start catch block
+// Start finally block
+// java.lang.ArithmeticException: / by zero
+//     at com.frankie.demo.exception.ExceptionTest.main(ExceptionTest.java:13)
+```
+
+但是，当`finally`语句块中包含`return`时，情况就会变得比较复杂，   
+
+它会覆盖`try`和`catch`语句块中的`return`，对于这一点知道即可，实际场景中应严格避免这种情况！  
+
+``` java
+String ans2 = allContainsReturn("a");
+System.out.println("ans2 = " + ans2);
+System.out.println("-----------------------");
+String ans3 = allContainsReturn("b");
+System.out.println("ans3 = " + ans3);
+
+private static String allContainsReturn(String name){
+    try {
+        if (name.endsWith("a")){
+            System.out.println(name + " from try block.");
+        } else{
+            int a = 10 / 0;
+        }
+        return "Return form try block";
+    } catch (Exception e){
+        System.out.println(name + " from catch block.");
+        return "Return form catch block";
+    } finally {
+        return "Return form finally block";
+    }
+}
+
+// a from try block.
+// ans2 = Return form finally block
+// -----------------------
+// b from catch block.
+// ans3 = Return form finally block
+```
+
+
+### Common Exceptions   
+
+- ArithmeticException  
+
+``` java
+// Exception in thread "main" java.lang.ArithmeticException: / by zero
+int a = 10 / 0;
+```
+
+
+- ArrayIndexOutOfBoundsException  
+
+``` java
+int[] nums = {1, 2, 3};
+// java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+int t = nums[3];
+```
+
+
+- NullPointerException  
+
+``` java
+String s = null;
+// java.lang.NullPointerException
+s.equals("a");
+```
+
+
+- FileNotFoundException & IOException  
+
+``` java
+try {
+    // java.io.FileNotFoundException: path (系统找不到指定的文件。)
+    new FileReader(new File("path"));
+} catch (FileNotFoundException e){
+    e.printStackTrace();
+}
+```
+
+
+- InterruptedException  
+
+``` java
+class ChildThread extends Thread{
+
+    @Override
+    public void run(){
+        try {
+            // java.lang.InterruptedException: sleep interrupted
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+ChildThread ct = new ChildThread();
+ct.start();
+// java.lang.InterruptedException: sleep interrupted
+ct.interrupt();
+```
+
+
+- DateTimeParseException  
+
+``` java
+String date = "1234";
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+// java.time.format.DateTimeParseException: Text '1234' could not be parsed at index 4
+LocalDate ld = LocalDate.parse(date, formatter);
+```
+
+
+- NumberFormatException  
+
+``` java
+String s = "10a";
+// java.lang.NumberFormatException: For input string: "10a"
+int n = Integer.parseInt(s); 
+```
+
+
 ## 异常类型
 #### 1. Exception
 >Exception主要分为两种：Runtime Exception、Checked（Compile） Exception。
@@ -173,5 +337,7 @@ public class OrderController {
 ```
 <br>
 ##  参考
-- 疯狂Java讲义（第十章 - 异常处理）
-- JAVA核心知识点整理
+- 疯狂Java讲义（第十章 - 异常处理）  
+- JAVA核心知识点整理  
+- [Exception Handling – try catch Java blocks](https://javabeginnerstutorial.com/core-java-tutorial/exception-handling-try-catch-java/#:~:text=In%20case%20a%20finally%20block,back%20to%20the%20return%20statement.){:target="_blank"}  
+- [Common Java Exceptions](https://www.baeldung.com/java-common-exceptions){:target="_blank"}  
