@@ -64,6 +64,7 @@ excerpt: IDEA Shortcut Keys include Windows and Mac
 
 ## S
 
+- SSD - Solid State Disk[固态硬盘]
 
 ## T
 
