@@ -47,6 +47,7 @@ excerpt: IDEA Shortcut Keys include Windows and Mac
 
 ## M
 
+- MMU - Memory Management Unit[内存管理单元]
 
 ## N
 
@@ -56,6 +57,7 @@ excerpt: IDEA Shortcut Keys include Windows and Mac
 
 ## P
 
+- PA - Physical Address[物理地址]
 
 ## Q
 
@@ -75,6 +77,7 @@ excerpt: IDEA Shortcut Keys include Windows and Mac
 
 ## V
 
+- VA - Virtual Address[虚拟地址]
 
 ## W
 
