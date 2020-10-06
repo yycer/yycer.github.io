@@ -17,6 +17,8 @@ excerpt: IDEA Shortcut Keys include Windows and Mac
 
 ## D
 
+- DSL - Domain Specific Language[领域专属语言]
+
 
 ## E
 
