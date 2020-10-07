@@ -66,6 +66,7 @@ excerpt: IDEA Shortcut Keys include Windows and Mac
 
 ## R
 
+- RMI - Remote Method Invocation[远程方法调用]
 
 ## S
 
