@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 工具 - IDEA快捷键整理[Win/Mac]
+title: 工具 - 首字母缩写 & 术语
 category: tool
 tags: [tool]
-excerpt: IDEA Shortcut Keys include Windows and Mac
+excerpt: Acronym and Glossary
 ---
 
 ## A
