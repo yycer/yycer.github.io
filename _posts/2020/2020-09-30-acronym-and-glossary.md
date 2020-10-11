@@ -30,6 +30,7 @@ excerpt: Acronym and Glossary
 ## G
 
 - GUI - Graphical User Interface[图形用户界面]
+- GPU - Graphics Processing Unit[图形处理器]
 
 ## H
 
