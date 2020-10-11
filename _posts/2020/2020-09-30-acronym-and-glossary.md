@@ -29,6 +29,7 @@ excerpt: Acronym and Glossary
 
 ## G
 
+- GUI - Graphical User Interface[图形用户界面]
 
 ## H
 
