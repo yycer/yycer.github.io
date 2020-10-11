@@ -37,6 +37,7 @@ excerpt: Acronym and Glossary
 ## I
 
 - ISA - Instruction Set Architecture[指令集架构]
+- IC - Integrated Circuit[继承电路]
 
 
 ## J
