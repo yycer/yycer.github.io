@@ -74,6 +74,7 @@ excerpt: Acronym and Glossary
 
 - RMI - Remote Method Invocation[远程方法调用]
 - RAM - Random Access Memory[随机访问内存]
+- RPM - Revolutions Per Minute[每分钟转数]
 
 ## S
 
