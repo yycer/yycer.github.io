@@ -18,6 +18,7 @@ excerpt: Acronym and Glossary
 ## D
 
 - DSL - Domain Specific Language[领域专属语言]
+- DD - Device Driver[设备驱动程序]
 
 
 ## E
