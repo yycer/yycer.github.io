@@ -86,6 +86,7 @@ excerpt: Acronym and Glossary
 
 ## U
 
+- USB - Universal Serial Bus[通用串行总线]
 
 ## V
 
