@@ -38,6 +38,7 @@ excerpt: Acronym and Glossary
 
 - ISA - Instruction Set Architecture[指令集架构]
 - IC - Integrated Circuit[继承电路]
+- IEEE - Institute of Electrical and Electronics Engineers[电气和电子工程师协会]
 
 
 ## J
@@ -62,6 +63,7 @@ excerpt: Acronym and Glossary
 ## P
 
 - PA - Physical Address[物理地址]
+- POSIX - Portable Operating System Interface[便携式操作系统界面]
 
 ## Q
 
