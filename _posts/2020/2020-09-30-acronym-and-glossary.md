@@ -64,6 +64,7 @@ excerpt: Acronym and Glossary
 
 - PA - Physical Address[物理地址]
 - POSIX - Portable Operating System Interface[便携式操作系统界面]
+- PSW - Program Status Word[程序状态字]
 
 ## Q
 
