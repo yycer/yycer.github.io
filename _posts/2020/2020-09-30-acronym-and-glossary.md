@@ -73,6 +73,7 @@ excerpt: Acronym and Glossary
 ## R
 
 - RMI - Remote Method Invocation[远程方法调用]
+- RAM - Random Access Memory[随机访问内存]
 
 ## S
 
