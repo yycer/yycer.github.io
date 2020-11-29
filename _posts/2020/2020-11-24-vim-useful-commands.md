@@ -21,7 +21,9 @@ o: Begin a new line below the cursor and insert text.
 x :  Delete character under and after the cursor.
 dd: Delete the current line.
 d0: Delete everything from where your cursor is to the beginning of the line.
-
+dG: Delete all lines.
+ctrl + w: Delete a word near the cursor(a string sperate by spaces).
+ctrl + u: Delete all the text that has been typed on the command line.
 ```
 
 
@@ -71,6 +73,10 @@ gg   : places the cursor at the start of the file.
 G    : Places the cursor at the end of the file.
 123G : Go to the specific line number.
 w    : Places the cursor at the next word.
+b    : Places the cursor backwards to the beginning of the current or previous word.
+e    : Places the cursor backwards to the end of the current or next word.
+ctrl + a: To the first character of the line(ahead).
+ctrl + e: To the end of the line.
 ```
 
 
@@ -88,6 +94,20 @@ w    : Places the cursor at the next word.
 ```
 guu: lowercase line.
 gUU: uppercase line.
+ctrl + -: Switch the current directory to the last directory.
+```
+
+
+
+## Multiple Windows  
+
+```
+sp  file_name: Open another window horizontally.
+vsp file_name: Open another window vertically.
+ctrl + w + h : Move window to the left.
+ctrl + w + j : Move window down.
+ctrl + w + k : Move window up.
+ctrl + w + l : Move window to the right.
 ```
 
 
