@@ -7,16 +7,40 @@ excerpt: UML - Class Diagram
 ---
 
 
-Update at 2021_0103
+## Update at 2021_0103
 
 阅读了刘伟主编的《设计模式》，对类图有了进一步的理解。  
 
-首先，来看一下类的UML图表示：  
+首先，来看一下类的`UML`图表示：  
 
 ![](https://yyc-images.oss-cn-beijing.aliyuncs.com/uml_employee.png)  
 
 补充一点：`下划线`代表静态成员变量和方法。  
 
+```
+public class Employee {
+
+    public String name;
+    private String email;
+    protected int age = 25;
+
+    public static String method1(int p1, double p2){
+        return "name";
+    }
+
+    public int method2(String p1){
+        return 2;
+    }
+
+    private void method3(int p1, boolean p2){
+
+    }
+
+    protected double method4(char p1){
+        return 1.2;
+    }
+}
+```
 
 再来看来类与类之间的关系，主要分为以下4种：  
  
@@ -279,8 +303,7 @@ public class Bus implements Vehicle{
 ```
 
 
-
-
+Update at 2021_0103 END
 
 
 本文总结一下`UML`类图的用法，主要包含基本结构、可见性、类关系和多重性，如图：  
